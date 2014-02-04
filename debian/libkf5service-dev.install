@@ -1,0 +1,4 @@
+usr/include/KF5/
+usr/bin/desktoptojson
+usr/lib/*/libKF5Service.so
+usr/lib/*/cmake/KF5Service/
