@@ -1,3 +1,10 @@
+kservice (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release 
+    - Removed desktoptojson-manpage.diff applied upstream
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 19 Feb 2014 06:59:45 -0800
+
 kservice (4.95.0-0ubuntu1) trusty; urgency=low
 
   * Initial release

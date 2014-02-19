@@ -4,24 +4,26 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libkf5crash-dev, libkf5dbusaddons-dev,
- libkf5config-dev, libkf5coreaddons-dev, libkf5windowsystem-dev, libkf5i18n-dev, 
- libkf5kjs-dev, kdoctools-dev, libkf5archive-dev, libxml2-utils,
- docbook-xsl, docbook-xml, dbus-x11  
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, libkf5crash-dev (>= 4.96.0), libkf5dbusaddons-dev (>= 4.96.0), libkf5config-dev (>= 4.96.0),
+ libkf5coreaddons-dev (>= 4.96.0), libkf5windowsystem-dev (>= 4.96.0),
+ libkf5i18n-dev (>= 4.96.0), libkf5kjs-dev (>= 4.96.0),
+ kdoctools-dev (>= 4.96.0), libkf5archive-dev (>= 4.96.0),
+ libxml2-utils, docbook-xsl, docbook-xml, dbus-x11  
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 
 Package: libkf5service-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5service5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5service4 (= ${binary:Version}), ${misc:Depends},
+ ${shlibs:Depends}
 Description: development files for kservice
  Application framework for file type association
  and plugin locating.
  .
  Contains development files for kservice.
  
-Package: libkf5service5
+Package: libkf5service4
 Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
@@ -30,12 +32,12 @@ Description: Advanced plugin and service introspection.
  Application framework for file type association
  and plugin locating.
 
-Package: libkf5service5-dbg
+Package: libkf5service4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5service5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5service4 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kservice
  Application framework for file type association
  and plugin locating.
