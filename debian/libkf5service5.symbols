@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Service.so.4 libkf5service4 #MINVER#
+libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
  KTraderParse_putSimplePositiveFloat@Base 4.96.0
