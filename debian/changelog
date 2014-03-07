@@ -6,6 +6,7 @@ kservice (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix symbols and manpages 
+  * Fix not-installed 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:25:06 +0000
 
