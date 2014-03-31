@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -6,7 +6,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_putString@Base 4.96.0
  KTraderParse_putSymbol@Base 4.96.0
  KTraderParse_putSymbolInBrackets@Base 4.96.0
- _Z11findLibraryRK7QString@Base 4.96.0
  _Z5qHashRK11KPluginInfo@Base 4.96.0
  _ZN10KAutostart10setCommandERK7QString@Base 4.96.0
  _ZN10KAutostart11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -79,11 +78,16 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN12KSycocaEntryD0Ev@Base 4.96.0
  _ZN12KSycocaEntryD1Ev@Base 4.96.0
  _ZN12KSycocaEntryD2Ev@Base 4.96.0
+ _ZN13KPluginLoader10findPluginERK7QString@Base 4.98.0
  _ZN13KPluginLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN13KPluginLoader11qt_metacastEPKc@Base 4.96.0
+ _ZN13KPluginLoader12setLoadHintsE6QFlagsIN8QLibrary8LoadHintEE@Base 4.98.0
+ _ZN13KPluginLoader13pluginVersionEv@Base 4.98.0
  _ZN13KPluginLoader16staticMetaObjectE@Base 4.96.0
  _ZN13KPluginLoader4loadEv@Base 4.96.0
+ _ZN13KPluginLoader6unloadEv@Base 4.98.0
  _ZN13KPluginLoader7factoryEv@Base 4.96.0
+ _ZN13KPluginLoader8instanceEv@Base 4.98.0
  _ZN13KPluginLoaderC1ERK7QStringP7QObject@Base 4.96.0
  _ZN13KPluginLoaderC1ERK8KServiceP7QObject@Base 4.96.0
  _ZN13KPluginLoaderC2ERK7QStringP7QObject@Base 4.96.0
@@ -113,7 +117,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN13KServiceGroup7entriesEbb@Base 4.96.0
  _ZN13KServiceGroup7entriesEbbbb@Base 4.96.0
  _ZN13KServiceGroup8addEntryERK28QExplicitlySharedDataPointerI12KSycocaEntryE@Base 4.96.0
- _ZN13KServiceGroup9baseGroupERK7QString@Base 4.96.0
  _ZN13KServiceGroupC1ER11QDataStreamib@Base 4.96.0
  _ZN13KServiceGroupC1ERK7QString@Base 4.96.0
  _ZN13KServiceGroupC1ERK7QStringS2_@Base 4.96.0
@@ -144,10 +147,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN14KPluginFactory23stringListToVariantListERK11QStringList@Base 4.96.0
  _ZN14KPluginFactory23variantListToStringListERK5QListI8QVariantE@Base 4.96.0
  _ZN14KPluginFactory6createEPKcP7QWidgetP7QObjectRK5QListI8QVariantERK7QString@Base 4.96.0
- _ZN14KPluginFactoryC1EPKcP7QObject@Base 4.96.0
- _ZN14KPluginFactoryC1ER21KPluginFactoryPrivateP7QObject@Base 4.96.0
- _ZN14KPluginFactoryC2EPKcP7QObject@Base 4.96.0
- _ZN14KPluginFactoryC2ER21KPluginFactoryPrivateP7QObject@Base 4.96.0
+ _ZN14KPluginFactoryC1ER21KPluginFactoryPrivate@Base 4.98.0
+ _ZN14KPluginFactoryC1Ev@Base 4.98.0
+ _ZN14KPluginFactoryC2ER21KPluginFactoryPrivate@Base 4.98.0
+ _ZN14KPluginFactoryC2Ev@Base 4.98.0
  _ZN14KPluginFactoryD0Ev@Base 4.96.0
  _ZN14KPluginFactoryD1Ev@Base 4.96.0
  _ZN14KPluginFactoryD2Ev@Base 4.96.0
@@ -266,8 +269,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN19KServiceTypeFactoryD1Ev@Base 4.96.0
  _ZN19KServiceTypeFactoryD2Ev@Base 4.96.0
  _ZN19KServiceTypeProfile10hasProfileERK7QString@Base 4.96.0
- _ZN19KServiceTypeProfile17configurationModeEv@Base 4.96.0
- _ZN19KServiceTypeProfile20setConfigurationModeEv@Base 4.96.0
  _ZN19KServiceTypeProfile23writeServiceTypeProfileERK7QStringRK5QListI28QExplicitlySharedDataPointerI8KServiceEES9_@Base 4.96.0
  _ZN19KServiceTypeProfile24deleteServiceTypeProfileERK7QString@Base 4.96.0
  _ZN19KSycocaUtilsPrivate4readER11QDataStreamR11QStringList@Base 4.96.0
@@ -313,20 +314,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN7KSycocaD0Ev@Base 4.96.0
  _ZN7KSycocaD1Ev@Base 4.96.0
  _ZN7KSycocaD2Ev@Base 4.96.0
- _ZN8KLibrary11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN8KLibrary11qt_metacastEPKc@Base 4.96.0
- _ZN8KLibrary11setFileNameERK7QString@Base 4.96.0
- _ZN8KLibrary16staticMetaObjectE@Base 4.96.0
- _ZN8KLibrary7factoryEPKc@Base 4.96.0
- _ZN8KLibraryC1EP7QObject@Base 4.96.0
- _ZN8KLibraryC1ERK7QStringP7QObject@Base 4.96.0
- _ZN8KLibraryC1ERK7QStringiP7QObject@Base 4.96.0
- _ZN8KLibraryC2EP7QObject@Base 4.96.0
- _ZN8KLibraryC2ERK7QStringP7QObject@Base 4.96.0
- _ZN8KLibraryC2ERK7QStringiP7QObject@Base 4.96.0
- _ZN8KLibraryD0Ev@Base 4.96.0
- _ZN8KLibraryD1Ev@Base 4.96.0
- _ZN8KLibraryD2Ev@Base 4.96.0
  _ZN8KMemFile19fileContentsChangedERK7QString@Base 4.96.0
  _ZN8KMemFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN8KMemFile4seekEx@Base 4.96.0
@@ -344,7 +331,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN8KMemFileD2Ev@Base 4.96.0
  _ZN8KService11allServicesEv@Base 4.96.0
  _ZN8KService11setTerminalEb@Base 4.96.0
- _ZN8KService13serviceByNameERK7QString@Base 4.96.0
  _ZN8KService14newServicePathEbRK7QStringPS0_PK11QStringList@Base 4.96.0
  _ZN8KService15serviceByMenuIdERK7QString@Base 4.96.0
  _ZN8KService18serviceByStorageIdERK7QString@Base 4.96.0
@@ -410,7 +396,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK11KSycocaDict7Private7hashKeyERK7QString@Base 4.96.0
  _ZNK12KServiceType11propertyDefERK7QString@Base 4.96.0
  _ZNK12KServiceType12propertyDefsEv@Base 4.96.0
- _ZNK12KServiceType16desktopEntryPathEv@Base 4.96.0
  _ZNK12KServiceType16propertyDefNamesEv@Base 4.96.0
  _ZNK12KServiceType17parentServiceTypeEv@Base 4.96.0
  _ZNK12KServiceType19serviceOffersOffsetEv@Base 4.96.0
@@ -431,8 +416,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK13KPluginLoader10metaObjectEv@Base 4.96.0
  _ZNK13KPluginLoader10pluginNameEv@Base 4.96.0
  _ZNK13KPluginLoader11errorStringEv@Base 4.96.0
- _ZNK13KPluginLoader13pluginVersionEv@Base 4.96.0
+ _ZNK13KPluginLoader8fileNameEv@Base 4.98.0
  _ZNK13KPluginLoader8isLoadedEv@Base 4.96.0
+ _ZNK13KPluginLoader8metaDataEv@Base 4.98.0
+ _ZNK13KPluginLoader9loadHintsEv@Base 4.98.0
  _ZNK13KServiceGroup10childCountEv@Base 4.96.0
  _ZNK13KServiceGroup10layoutInfoEv@Base 4.96.0
  _ZNK13KServiceGroup11allowInlineEv@Base 4.96.0
@@ -455,7 +442,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK13KServiceOffer7serviceEv@Base 4.96.0
  _ZNK13KServiceOfferltERKS_@Base 4.96.0
  _ZNK14KPluginFactory10metaObjectEv@Base 4.96.0
- _ZNK14KPluginFactory13componentNameEv@Base 4.96.0
  _ZNK14KServiceAction11isSeparatorEv@Base 4.96.0
  _ZNK14KServiceAction4dataEv@Base 4.96.0
  _ZNK14KServiceAction4execEv@Base 4.96.0
@@ -481,12 +467,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK20KServiceGroupFactory11createEntryEi@Base 4.96.0
  _ZNK20KServiceGroupFactory11createGroupEib@Base 4.96.0
  _ZNK7KSycoca10metaObjectEv@Base 4.96.0
- _ZNK8KLibrary10metaObjectEv@Base 4.96.0
  _ZNK8KMemFile12isSequentialEv@Base 4.96.0
  _ZNK8KMemFile4sizeEv@Base 4.96.0
  _ZNK8KService10categoriesEv@Base 4.96.0
  _ZNK8KService11genericNameEv@Base 4.96.0
- _ZNK8KService11hasMimeTypeEPK12KServiceType@Base 4.96.0
  _ZNK8KService11hasMimeTypeERK7QString@Base 4.96.0
  _ZNK8KService11locateLocalEv@Base 4.96.0
  _ZNK8KService12serviceTypesEv@Base 4.96.0
@@ -498,7 +482,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK8KService15dbusStartupTypeEv@Base 4.96.0
  _ZNK8KService15terminalOptionsEv@Base 4.96.0
  _ZNK8KService16desktopEntryNameEv@Base 4.96.0
- _ZNK8KService16desktopEntryPathEv@Base 4.96.0
  _ZNK8KService17initialPreferenceEv@Base 4.96.0
  _ZNK8KService18allowMultipleFilesEv@Base 4.96.0
  _ZNK8KService21showOnCurrentPlatformEv@Base 4.97.0
@@ -506,7 +489,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK8KService4execEv@Base 4.96.0
  _ZNK8KService4iconEv@Base 4.96.0
  _ZNK8KService4pathEv@Base 4.96.0
- _ZNK8KService4typeEv@Base 4.96.0
  _ZNK8KService6menuIdEv@Base 4.96.0
  _ZNK8KService7actionsEv@Base 4.96.0
  _ZNK8KService7commentEv@Base 4.96.0
@@ -536,7 +518,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZTI19KServiceTypeFactory@Base 4.96.0
  _ZTI20KServiceGroupFactory@Base 4.96.0
  _ZTI7KSycoca@Base 4.96.0
- _ZTI8KLibrary@Base 4.96.0
  _ZTI8KMemFile@Base 4.96.0
  _ZTI8KService@Base 4.96.0
  _ZTIN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
@@ -556,7 +537,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZTS19KServiceTypeFactory@Base 4.96.0
  _ZTS20KServiceGroupFactory@Base 4.96.0
  _ZTS7KSycoca@Base 4.96.0
- _ZTS8KLibrary@Base 4.96.0
  _ZTS8KMemFile@Base 4.96.0
  _ZTS8KService@Base 4.96.0
  _ZTSN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
@@ -575,7 +555,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZTV19KServiceTypeFactory@Base 4.96.0
  _ZTV20KServiceGroupFactory@Base 4.96.0
  _ZTV7KSycoca@Base 4.96.0
- _ZTV8KLibrary@Base 4.96.0
  _ZTV8KMemFile@Base 4.96.0
  _ZTV8KService@Base 4.96.0
  _ZTVN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
