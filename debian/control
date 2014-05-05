@@ -4,10 +4,10 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.11), qtbase5-dev, libkf5crash-dev (>= 4.98.0), libkf5dbusaddons-dev (>= 4.98.0), libkf5config-dev (>= 4.98.0),
- libkf5coreaddons-dev (>= 4.98.0), libkf5windowsystem-dev (>= 4.98.0),
- libkf5i18n-dev (>= 4.98.0), libkf5kjs-dev (>= 4.98.0),
- kdoctools-dev (>= 4.98.0), libkf5archive-dev (>= 4.98.0),
+ extra-cmake-modules (>= 0.0.13), qtbase5-dev, libkf5crash-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0),
+ libkf5coreaddons-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0),
+ libkf5i18n-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0),
+ kdoctools-dev (>= 4.99.0), libkf5archive-dev (>= 4.99.0),
  libxml2-utils, docbook-xsl, docbook-xml, dbus-x11  
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kservice
