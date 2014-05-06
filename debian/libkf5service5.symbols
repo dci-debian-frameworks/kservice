@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -78,23 +78,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN12KSycocaEntryD0Ev@Base 4.96.0
  _ZN12KSycocaEntryD1Ev@Base 4.96.0
  _ZN12KSycocaEntryD2Ev@Base 4.96.0
- _ZN13KPluginLoader10findPluginERK7QString@Base 4.98.0
- _ZN13KPluginLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN13KPluginLoader11qt_metacastEPKc@Base 4.96.0
- _ZN13KPluginLoader12setLoadHintsE6QFlagsIN8QLibrary8LoadHintEE@Base 4.98.0
- _ZN13KPluginLoader13pluginVersionEv@Base 4.98.0
- _ZN13KPluginLoader16staticMetaObjectE@Base 4.96.0
- _ZN13KPluginLoader4loadEv@Base 4.96.0
- _ZN13KPluginLoader6unloadEv@Base 4.98.0
- _ZN13KPluginLoader7factoryEv@Base 4.96.0
- _ZN13KPluginLoader8instanceEv@Base 4.98.0
- _ZN13KPluginLoaderC1ERK7QStringP7QObject@Base 4.96.0
- _ZN13KPluginLoaderC1ERK8KServiceP7QObject@Base 4.96.0
- _ZN13KPluginLoaderC2ERK7QStringP7QObject@Base 4.96.0
- _ZN13KPluginLoaderC2ERK8KServiceP7QObject@Base 4.96.0
- _ZN13KPluginLoaderD0Ev@Base 4.96.0
- _ZN13KPluginLoaderD1Ev@Base 4.96.0
- _ZN13KPluginLoaderD2Ev@Base 4.96.0
  _ZN13KPluginTrader16applyConstraintsER5QListI11KPluginInfoERK7QString@Base 4.96.0
  _ZN13KPluginTrader4selfEv@Base 4.96.0
  _ZN13KPluginTrader5queryERK7QStringS2_S2_@Base 4.96.0
@@ -137,23 +120,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN13KServiceOfferD1Ev@Base 4.96.0
  _ZN13KServiceOfferD2Ev@Base 4.96.0
  _ZN13KServiceOfferaSERKS_@Base 4.96.0
- _ZN14KPluginFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN14KPluginFactory11qt_metacastEPKc@Base 4.96.0
- _ZN14KPluginFactory12createObjectEP7QObjectPKcRK11QStringList@Base 4.96.0
- _ZN14KPluginFactory13objectCreatedEP7QObject@Base 4.96.0
- _ZN14KPluginFactory14registerPluginERK7QStringPK11QMetaObjectPFP7QObjectP7QWidgetS7_RK5QListI8QVariantEE@Base 4.96.0
- _ZN14KPluginFactory16createPartObjectEP7QWidgetP7QObjectPKcRK11QStringList@Base 4.96.0
- _ZN14KPluginFactory16staticMetaObjectE@Base 4.96.0
- _ZN14KPluginFactory23stringListToVariantListERK11QStringList@Base 4.96.0
- _ZN14KPluginFactory23variantListToStringListERK5QListI8QVariantE@Base 4.96.0
- _ZN14KPluginFactory6createEPKcP7QWidgetP7QObjectRK5QListI8QVariantERK7QString@Base 4.96.0
- _ZN14KPluginFactoryC1ER21KPluginFactoryPrivate@Base 4.98.0
- _ZN14KPluginFactoryC1Ev@Base 4.98.0
- _ZN14KPluginFactoryC2ER21KPluginFactoryPrivate@Base 4.98.0
- _ZN14KPluginFactoryC2Ev@Base 4.98.0
- _ZN14KPluginFactoryD0Ev@Base 4.96.0
- _ZN14KPluginFactoryD1Ev@Base 4.96.0
- _ZN14KPluginFactoryD2Ev@Base 4.96.0
  _ZN14KServiceAction7setDataERK8QVariant@Base 4.96.0
  _ZN14KServiceActionC1ERK7QStringS2_S2_S2_b@Base 4.96.0
  _ZN14KServiceActionC1ERKS_@Base 4.96.0
@@ -413,13 +379,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK12KSycocaEntry9entryPathEv@Base 4.96.0
  _ZNK12KSycocaEntry9isDeletedEv@Base 4.96.0
  _ZNK12KSycocaEntry9storageIdEv@Base 4.96.0
- _ZNK13KPluginLoader10metaObjectEv@Base 4.96.0
- _ZNK13KPluginLoader10pluginNameEv@Base 4.96.0
- _ZNK13KPluginLoader11errorStringEv@Base 4.96.0
- _ZNK13KPluginLoader8fileNameEv@Base 4.98.0
- _ZNK13KPluginLoader8isLoadedEv@Base 4.96.0
- _ZNK13KPluginLoader8metaDataEv@Base 4.98.0
- _ZNK13KPluginLoader9loadHintsEv@Base 4.98.0
  _ZNK13KServiceGroup10childCountEv@Base 4.96.0
  _ZNK13KServiceGroup10layoutInfoEv@Base 4.96.0
  _ZNK13KServiceGroup11allowInlineEv@Base 4.96.0
@@ -441,7 +400,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK13KServiceOffer7isValidEv@Base 4.96.0
  _ZNK13KServiceOffer7serviceEv@Base 4.96.0
  _ZNK13KServiceOfferltERKS_@Base 4.96.0
- _ZNK14KPluginFactory10metaObjectEv@Base 4.96.0
  _ZNK14KServiceAction11isSeparatorEv@Base 4.96.0
  _ZNK14KServiceAction4dataEv@Base 4.96.0
  _ZNK14KServiceAction4execEv@Base 4.96.0
@@ -484,6 +442,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK8KService16desktopEntryNameEv@Base 4.96.0
  _ZNK8KService17initialPreferenceEv@Base 4.96.0
  _ZNK8KService18allowMultipleFilesEv@Base 4.96.0
+ _ZNK8KService20showInCurrentDesktopEv@Base 4.99.0
  _ZNK8KService21showOnCurrentPlatformEv@Base 4.97.0
  _ZNK8KService23untranslatedGenericNameEv@Base 4.96.0
  _ZNK8KService4execEv@Base 4.96.0
@@ -501,15 +460,13 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK8KService9mimeTypesEv@Base 4.96.0
  _ZNK8KService9noDisplayEv@Base 4.96.0
  _ZNK8KService9parentAppEv@Base 4.96.0
- _ZNK8KService9showInKDEEv@Base 4.96.0
  _ZNK8KService9storageIdEv@Base 4.96.0
+ _ZNK8KServicecv11KPluginNameEv@Base 4.99.0
  _ZTI10KAutostart@Base 4.96.0
  _ZTI11QSharedData@Base 4.96.0
  _ZTI12KServiceType@Base 4.96.0
  _ZTI12KSycocaEntry@Base 4.96.0
- _ZTI13KPluginLoader@Base 4.96.0
  _ZTI13KServiceGroup@Base 4.96.0
- _ZTI14KPluginFactory@Base 4.96.0
  _ZTI14KSycocaFactory@Base 4.96.0
  _ZTI15KServiceFactory@Base 4.96.0
  _ZTI15KToolInvocation@Base 4.96.0
@@ -526,9 +483,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZTS11QSharedData@Base 4.96.0
  _ZTS12KServiceType@Base 4.96.0
  _ZTS12KSycocaEntry@Base 4.96.0
- _ZTS13KPluginLoader@Base 4.96.0
  _ZTS13KServiceGroup@Base 4.96.0
- _ZTS14KPluginFactory@Base 4.96.0
  _ZTS14KSycocaFactory@Base 4.96.0
  _ZTS15KServiceFactory@Base 4.96.0
  _ZTS15KToolInvocation@Base 4.96.0
@@ -544,9 +499,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZTV10KAutostart@Base 4.96.0
  _ZTV12KServiceType@Base 4.96.0
  _ZTV12KSycocaEntry@Base 4.96.0
- _ZTV13KPluginLoader@Base 4.96.0
  _ZTV13KServiceGroup@Base 4.96.0
- _ZTV14KPluginFactory@Base 4.96.0
  _ZTV14KSycocaFactory@Base 4.96.0
  _ZTV15KServiceFactory@Base 4.96.0
  _ZTV15KToolInvocation@Base 4.96.0
