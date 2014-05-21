@@ -1,5 +1,5 @@
-usr/lib/*/libKF5Service.so.4*
-usr/bin/kbuildsycoca5
 etc/*
-usr/share/kservicetypes5/*
+usr/bin/kbuildsycoca5
+usr/lib/*/libKF5Service.so.4*
 usr/lib/*/libKF5Service.so.5
+usr/share/kservicetypes5/*
