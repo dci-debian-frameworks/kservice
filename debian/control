@@ -31,14 +31,14 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced plugin and service introspection.
  Application framework for file type association
  and plugin locating.
-Multi-Arch: allowed
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5service5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: allowed
+Multi-Arch: same
 Depends: libkf5service5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kservice
  Application framework for file type association
