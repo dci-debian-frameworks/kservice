@@ -24,15 +24,26 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 
-Package: libkf5service5
+Package: libkf5service-dev
 Section: libdevel
 Architecture: any
+Depends: libkf5service5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: development files for kservice
+ Application framework for file type association
+ and plugin locating.
+ .
+ Contains development files for kservice.
+
+Package: libkf5service5
+Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: Advanced plugin and service introspection.
  Application framework for file type association
  and plugin locating.
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5service5-dbg
 Priority: extra

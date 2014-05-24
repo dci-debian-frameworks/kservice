@@ -84,7 +84,7 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".      
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: *
        autotests/CMakeLists.txt
@@ -101,7 +101,7 @@ Files: *
        tests/kservicetojsontest/*
        tests/pluginlocator/CMakeLists.txt
        tests/pluginlocator/main.cpp
-       debian/*  
+       debian/*
 Copyright: © 1999-2013 David Faure <faure@kde.org>
            © 1998-2004 Waldo Bastian <bastian@kde.org>
            © 1998-2000 Torben Weis <weis@kde.org>
@@ -180,7 +180,7 @@ Files: autotests/ksycocadicttest.cpp
        tests/kdbusservicestartertest.cpp
        tests/kmimeassociationstest.cpp
        tests/pluginlocator/plugintest.cpp
-       tests/pluginlocator/plugintest.h 
+       tests/pluginlocator/plugintest.h
 Copyright: © 1999-2013 David Faure <faure@kde.org>
            © 1998-2004 Waldo Bastian <bastian@kde.org>
            © 1998-2000 Torben Weis <weis@kde.org>
@@ -224,7 +224,7 @@ License: LGPL-2+
 
 Files: src/kbuildsycoca/kbuildservicegroupfactory.h
        src/kbuildsycoca/kctimefactory.h
-Copyright: 2000 Waldo Bastian <bastian@kde.org>                     
+Copyright: 2000 Waldo Bastian <bastian@kde.org>
 License: LGPL-any
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
