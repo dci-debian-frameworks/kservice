@@ -29,7 +29,11 @@ Section: libdevel
 Architecture: any
 Depends: libkf5service5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+         libkf5config-dev,
+         libkf5coreaddons-dev,
+         libkf5dbusaddons-dev,
+         libkf5i18n-dev
 Description: development files for kservice
  Application framework for file type association
  and plugin locating.
