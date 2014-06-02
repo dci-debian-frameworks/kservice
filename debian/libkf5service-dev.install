@@ -2,4 +2,4 @@ usr/bin/desktoptojson
 usr/include/KF5/
 usr/lib/*/cmake/KF5Service/
 usr/lib/*/libKF5Service.so
-usr/share/qt5/mkspecs/modules/qt_KService.pri
+usr/lib/*/qt5/mkspecs/modules/*
