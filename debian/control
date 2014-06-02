@@ -8,16 +8,16 @@ Build-Depends: cmake,
                debhelper (>= 9.0.0),
                docbook-xml,
                docbook-xsl,
-               extra-cmake-modules (>= 0.0.13),
-               kdoctools-dev (>= 4.99.0),
-               libkf5archive-dev (>= 4.99.0),
-               libkf5config-dev (>= 4.99.0),
-               libkf5coreaddons-dev (>= 4.99.0),
-               libkf5crash-dev (>= 4.99.0),
-               libkf5dbusaddons-dev (>= 4.99.0),
-               libkf5i18n-dev (>= 4.99.0),
-               libkf5kjs-dev (>= 4.99.0),
-               libkf5windowsystem-dev (>= 4.99.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               libkf5archive-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5crash-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
                libxml2-utils,
                pkg-kde-tools,
                qtbase5-dev
@@ -27,13 +27,13 @@ Homepage: https://projects.kde.org/projects/frameworks/kservice
 Package: libkf5service-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5service5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends},
-         libkf5config-dev,
+Depends: libkf5config-dev,
          libkf5coreaddons-dev,
          libkf5dbusaddons-dev,
-         libkf5i18n-dev
+         libkf5i18n-dev,
+         libkf5service5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: development files for kservice
  Application framework for file type association
  and plugin locating.
