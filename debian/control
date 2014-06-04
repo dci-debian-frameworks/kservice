@@ -62,7 +62,7 @@ Description: debug symbols for kservice
  .
  Contains debug symbols for kservice.
 
-Package: libkf5service5-data
+Package: libkf5service-data
 Architecture: all
 Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
