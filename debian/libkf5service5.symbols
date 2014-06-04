@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -59,6 +59,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN11KSycocaDictC2Ev@Base 4.96.0
  _ZN11KSycocaDictD1Ev@Base 4.96.0
  _ZN11KSycocaDictD2Ev@Base 4.96.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN12KServiceType10parentTypeEv@Base 4.96.0
  _ZN12KServiceType11serviceTypeERK7QString@Base 4.96.0
  _ZN12KServiceType15allServiceTypesEv@Base 4.96.0
@@ -360,6 +361,9 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK11KSycocaDict5countEv@Base 4.96.0
  _ZNK11KSycocaDict7Private12offsetForKeyERK7QString@Base 4.96.0
  _ZNK11KSycocaDict7Private7hashKeyERK7QString@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KServiceType11propertyDefERK7QString@Base 4.96.0
  _ZNK12KServiceType12propertyDefsEv@Base 4.96.0
  _ZNK12KServiceType16propertyDefNamesEv@Base 4.96.0
