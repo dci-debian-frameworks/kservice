@@ -5,7 +5,11 @@ kservice (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ Harald Sitter ]
+  * Add new package libkf5service-data for localization and etc/
+  * Move etc/ from libkf5service to libkf5service-data
+  * libkf5service-data breaks and replaces older versions of libkf5service
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:43:45 +0100
 

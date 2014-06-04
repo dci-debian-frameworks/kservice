@@ -43,9 +43,10 @@ Description: development files for kservice
 Package: libkf5service5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ libkf5service-data (= ${source:Version})
 Pre-Depends: ${misc:Pre-Depends}
-Description: Advanced plugin and service introspection.
+Description: Advanced plugin and service introspection
  Application framework for file type association
  and plugin locating.
 
@@ -60,3 +61,16 @@ Description: debug symbols for kservice
  and plugin locating.
  .
  Contains debug symbols for kservice.
+
+Package: libkf5service5-data
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5service (<< 4.100.0-0ubuntu1~)
+Replaces: libkf5service (<< 4.100.0-0ubuntu1~)
+Description: Advanced plugin and service introspection
+ Application framework for file type association
+ and plugin locating.
+ .
+ This package contains shared data files.
