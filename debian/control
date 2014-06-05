@@ -46,7 +46,6 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends},
  libkf5service-data (= ${source:Version})
 Recommends: libkf5service-bin (= ${binary:Version})
-Pre-Depends: ${misc:Pre-Depends}
 Description: Advanced plugin and service introspection
  Application framework for file type association
  and plugin locating.
@@ -54,7 +53,6 @@ Description: Advanced plugin and service introspection
 Package: libkf5service-data
 Architecture: all
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced plugin and service introspection
  Application framework for file type association
@@ -64,7 +62,6 @@ Description: Advanced plugin and service introspection
 
 Package: libkf5service-bin
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced plugin and service introspection
  Application framework for file type association

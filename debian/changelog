@@ -16,6 +16,8 @@ kservice (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     (it might be that this recommends relationship is invalid because bin is
      not multiarch)
   * Actually add install file for -bin
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:43:45 +0100
 
