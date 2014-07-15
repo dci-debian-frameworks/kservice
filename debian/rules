@@ -6,6 +6,4 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5service5-dbg
 
-override_dh_auto_test:
-	PYBUILD_TEST_ARGS="export `dbus-launch`"\
-	dh_auto_test
+.PHONY: override_dh_auto_test
