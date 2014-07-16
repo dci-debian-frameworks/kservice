@@ -2,50 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kservice
 Source: https://projects.kde.org/projects/frameworks/kservice
 
-Files: autotests/kautostarttest.cpp
-       autotests/kautostarttest.h
-       autotests/kservicetest.cpp
-       autotests/kservicetest.h
-       autotests/kwaitforsignal.cpp
-       autotests/kwaitforsignal.h
-       src/kbuildsycoca/kbuildservicefactory.cpp
-       src/kbuildsycoca/kbuildservicegroupfactory.cpp
-       src/kbuildsycoca/kbuildservicetypefactory.cpp
-       src/kbuildsycoca/kbuildsycoca.cpp
-       src/kbuildsycoca/kbuildsycoca.h
-       src/kbuildsycoca/kctimefactory.cpp
-       src/kbuildsycoca/ksycocaresourcelist.h
-       src/kbuildsycoca/vfolder_menu.cpp
-       src/kbuildsycoca/vfolder_menu.h
-       src/kdeinit/ktoolinvocation_win.cpp
-       src/plugin/* excluding:
-       -+ src/plugin/kpluginfactory.cpp
-       -+ src/plugin/kpluginfactory.h
-       -+ src/plugin/kpluginfactory_p.h
-       src/services/* excluding:
-       -+ src/services/kautostart.cpp
-       -+ src/services/kautostart.h
-       -+ src/services/kservice.h
-       -+ src/services/kservice_p.h
-       -+ src/services/kserviceaction.cpp
-       -+ src/services/kserviceaction.h
-       -+ src/services/kservicefactory.h
-       -+ src/services/kservicetype.h
-       -+ src/services/kservicetype_p.h
-       -+ src/services/kservicetypefactory.h
-       -+ src/services/kservicetypeprofile.h
-       -+ src/services/ktraderparse.cpp
-       -+ src/services/ktraderparse_p.h
-       -+ src/services/ktraderparsetree.cpp
-       -+ src/services/ktraderparsetree_p.h
-       -? src/services/lex.c
-       src/sycoca/* excluding:
-       -+ src/sycoca/kmemfile.cpp
-       -+ src/sycoca/kmemfile_p.h
-       -+ src/sycoca/ksycocadevices_p.h
-       -+ src/sycoca/ksycocatype.h
-       tests/ksycocatest.cpp
-       tests/startserviceby.cpp
+Files: *
 Copyright: © 1999-2013 David Faure <faure@kde.org>
            © 1998-2004 Waldo Bastian <bastian@kde.org>
            © 1998-2000 Torben Weis <weis@kde.org>
@@ -86,8 +43,7 @@ License: LGPL-2
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: *
-       autotests/CMakeLists.txt
+Files: autotests/CMakeLists.txt
        autotests/nsaplugin.cpp
        autotests/nsaplugin.h
        docs/*
@@ -154,7 +110,7 @@ Files: autotests/ksycocadicttest.cpp
        src/kbuildsycoca/kmimeassociations.cpp
        src/kbuildsycoca/kmimeassociations.h
        src/kdeinit/* excluding:
-       -+ src/kdeinit/ktoolinvocation_win.cpp
+        -src/kdeinit/ktoolinvocation_win.cpp
        src/plugin/kpluginfactory.cpp
        src/plugin/kpluginfactory.h
        src/plugin/kpluginfactory_p.h
