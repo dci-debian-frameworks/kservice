@@ -3,28 +3,28 @@ Upstream-Name: kservice
 Source: https://projects.kde.org/projects/frameworks/kservice
 
 Files: *
-Copyright: © 1999-2013 David Faure <faure@kde.org>
-           © 1998-2004 Waldo Bastian <bastian@kde.org>
-           © 1998-2000 Torben Weis <weis@kde.org>
-           © 2012-2013 Sebastian Kügler <sebas@kde.org>
-           © 2007 Bernhard Loos <nhuh.put@web.de> <nhuh.put@web.de.org>
-           © 2003, 2007 Matthias Kretz <kretz@kde.org>
-           © 2006, 2008 Aaron Seigo <aseigo@kde.org>
-           © 2006 Thiago Macieira <thiago@kde.org>
-           © 2008 Christian Ehrlicher <ch.ehrlicher@gmx.de>
-           © 1984, 1989-1990, 2000-2006 Free Software Foundation Inc.
-           © 1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>
-           © 2008 Hamish Rodda <rodda@kde.org>
-           © 1999 Espen Sand <espen@kde.org>
-           © 1998-2005 Stephan Kulow <coolo@kde.org>
-           © 2001-2005 Lubos Lunak <l.lunak@kde.org>
-           © 2004-2008 Jarosław Staniek <staniek@kde.org>
-           © 2000-2004 Frerich Raabe <raabe@kde.org>
-           © 2000 Michael Matz <matz@kde.org>
-           © 2003-2004 Oswald Buddenhagen <ossi@kde.org>
-           © 1997-2000 Matthias Ettrich <ettrich@troll.no>
-           © 2005 Brad Hards <bradh@frogmouth.net>
-	   © 2006 Ralf Habacker <ralf.habacker@freenet.de>
+Copyright: 1999-2013 David Faure <faure@kde.org>
+           1998-2004 Waldo Bastian <bastian@kde.org>
+           1998-2000 Torben Weis <weis@kde.org>
+           2012-2013 Sebastian Kügler <sebas@kde.org>
+           2007 Bernhard Loos <nhuh.put@web.de> <nhuh.put@web.de.org>
+           2003, 2007 Matthias Kretz <kretz@kde.org>
+           2006, 2008 Aaron Seigo <aseigo@kde.org>
+           2006 Thiago Macieira <thiago@kde.org>
+           2008 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+           1984, 1989-1990, 2000-2006 Free Software Foundation Inc.
+           1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>
+           2008 Hamish Rodda <rodda@kde.org>
+           1999 Espen Sand <espen@kde.org>
+           1998-2005 Stephan Kulow <coolo@kde.org>
+           2001-2005 Lubos Lunak <l.lunak@kde.org>
+           2004-2008 Jarosław Staniek <staniek@kde.org>
+           2000-2004 Frerich Raabe <raabe@kde.org>
+           2000 Michael Matz <matz@kde.org>
+           2003-2004 Oswald Buddenhagen <ossi@kde.org>
+           1997-2000 Matthias Ettrich <ettrich@troll.no>
+           2005 Brad Hards <bradh@frogmouth.net>
+	   2006 Ralf Habacker <ralf.habacker@freenet.de>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -43,122 +43,61 @@ License: LGPL-2
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: autotests/CMakeLists.txt
-       autotests/nsaplugin.cpp
-       autotests/nsaplugin.h
-       docs/*
-       docs/kbuildsycoca5/*
-       docs/kdeinit5/*
-       src/*
-       src/desktoptojson/*
-       src/kbuildsycoca/CMakeLists.txt
-       src/services/lex.c
-       tests/CMakeLists.txt
-       tests/kservicetojsontest/*
-       tests/pluginlocator/CMakeLists.txt
-       tests/pluginlocator/main.cpp
-       debian/*
-Copyright: © 1999-2013 David Faure <faure@kde.org>
-           © 1998-2004 Waldo Bastian <bastian@kde.org>
-           © 1998-2000 Torben Weis <weis@kde.org>
-           © 2012-2013 Sebastian Kügler <sebas@kde.org>
-           © 2007 Bernhard Loos <nhuh.put@web.de> <nhuh.put@web.de.org>
-           © 2003, 2007 Matthias Kretz <kretz@kde.org>
-           © 2006, 2008 Aaron Seigo <aseigo@kde.org>
-           © 2006 Thiago Macieira <thiago@kde.org>
-           © 2008 Christian Ehrlicher <ch.ehrlicher@gmx.de>
-           © 1984, 1989-1990, 2000-2006 Free Software Foundation Inc.
-           © 1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>
-           © 2008 Hamish Rodda <rodda@kde.org>
-           © 1999 Espen Sand <espen@kde.org>
-           © 1998-2005 Stephan Kulow <coolo@kde.org>
-           © 2001-2005 Lubos Lunak <l.lunak@kde.org>
-           © 2004-2008 Jarosław Staniek <staniek@kde.org>
-           © 2000-2004 Frerich Raabe <raabe@kde.org>
-           © 2000 Michael Matz <matz@kde.org>
-           © 2003-2004 Oswald Buddenhagen <ossi@kde.org>
-           © 1997-2000 Matthias Ettrich <ettrich@troll.no>
-           © 2005 Brad Hards <bradh@frogmouth.net>
-	   © 2006 Ralf Habacker <ralf.habacker@freenet.de>
-             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
 Files: autotests/ksycocadicttest.cpp
-       autotests/ksycocathreadtest.cpp
-       autotests/pluginlocatortest.cpp
-       autotests/pluginlocatortest.h
-       src/kbuildsycoca/kbuildmimetypefactory.cpp
-       src/kbuildsycoca/kbuildmimetypefactory.h
-       src/kbuildsycoca/kbuildservicefactory.h
-       src/kbuildsycoca/kbuildservicetypefactory.h
-       src/kbuildsycoca/kbuildsycocainterface.h
-       src/kbuildsycoca/kmimeassociations.cpp
-       src/kbuildsycoca/kmimeassociations.h
-       src/kdeinit/* excluding:
-        -src/kdeinit/ktoolinvocation_win.cpp
-       src/plugin/kpluginfactory.cpp
-       src/plugin/kpluginfactory.h
-       src/plugin/kpluginfactory_p.h
-       src/services/kautostart.cpp
-       src/services/kautostart.h
-       src/services/kservice.h
-       src/services/kservice_p.h
-       src/services/kserviceaction.cpp
-       src/services/kserviceaction.h
-       src/services/kservicefactory.h
-       src/services/kservicetype.h
-       src/services/kservicetype_p.h
-       src/services/kservicetypefactory.h
-       src/services/kservicetypeprofile.h
-       src/services/ktraderparse.cpp
-       src/services/ktraderparse_p.h
-       src/services/ktraderparsetree.cpp
-       src/services/ktraderparsetree_p.h
-       src/sycoca/kmemfile.cpp
-       src/sycoca/kmemfile_p.h
-       src/sycoca/ksycocadevices_p.h
-       src/sycoca/ksycocatype.h
-       tests/kdbusservicestartertest.cpp
-       tests/kmimeassociationstest.cpp
-       tests/pluginlocator/plugintest.cpp
-       tests/pluginlocator/plugintest.h
-Copyright: © 1999-2013 David Faure <faure@kde.org>
-           © 1998-2004 Waldo Bastian <bastian@kde.org>
-           © 1998-2000 Torben Weis <weis@kde.org>
-           © 2012-2013 Sebastian Kügler <sebas@kde.org>
-           © 2007 Bernhard Loos <nhuh.put@web.de> <nhuh.put@web.de.org>
-           © 2003, 2007 Matthias Kretz <kretz@kde.org>
-           © 2006, 2008 Aaron Seigo <aseigo@kde.org>
-           © 2006 Thiago Macieira <thiago@kde.org>
-           © 2008 Christian Ehrlicher <ch.ehrlicher@gmx.de>
-           © 1984, 1989-1990, 2000-2006 Free Software Foundation Inc.
-           © 1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>
-           © 2008 Hamish Rodda <rodda@kde.org>
-           © 1999 Espen Sand <espen@kde.org>
-           © 1998-2005 Stephan Kulow <coolo@kde.org>
-           © 2001-2005 Lubos Lunak <l.lunak@kde.org>
-           © 2004-2008 Jarosław Staniek <staniek@kde.org>
-           © 2000-2004 Frerich Raabe <raabe@kde.org>
-           © 2000 Michael Matz <matz@kde.org>
-           © 2003-2004 Oswald Buddenhagen <ossi@kde.org>
-           © 1997-2000 Matthias Ettrich <ettrich@troll.no>
-           © 2005 Brad Hards <bradh@frogmouth.net>
-	   © 2006 Ralf Habacker <ralf.habacker@freenet.de>
+ autotests/pluginlocatortest.cpp
+ autotests/pluginlocatortest.h
+ src/kdeinit/ktoolinvocation.h
+ src/kdeinit/ktoolinvocation_x11.cpp
+ src/kdeinit/ktoolinvocation.cpp
+ src/services/ktraderparsetree_p.h
+ src/services/kautostart.h
+ src/services/kautostart.cpp
+ src/services/kservicetype.h
+ src/services/kservice_p.h
+ src/services/kservice.h
+ src/services/kservicetypefactory.h
+ src/services/ktraderparse_p.h
+ src/services/kservicetype_p.h
+ src/services/ktraderparsetree.cpp
+ src/services/kservicefactory.h
+ src/services/kserviceaction.h
+ src/services/ktraderparse.cpp
+ src/services/kserviceaction.cpp
+ src/services/kservicetypeprofile.h
+ src/sycoca/kmemfile_p.h
+ src/sycoca/kmemfile.cpp
+ src/sycoca/ksycocatype.h
+ src/kbuildsycoca/kbuildmimetypefactory.h
+ src/kbuildsycoca/kbuildservicetypefactory.h
+ src/kbuildsycoca/kbuildservicefactory.h
+ src/kbuildsycoca/kbuildmimetypefactory.cpp
+ tests/kdbusservicestartertest.cpp
+ tests/pluginlocator/plugintest.cpp
+ tests/pluginlocator/plugintest.h
+ debian/*
+Copyright: 1999-2013 David Faure <faure@kde.org>
+           1998-2004 Waldo Bastian <bastian@kde.org>
+           1998-2000 Torben Weis <weis@kde.org>
+           2012-2013 Sebastian Kügler <sebas@kde.org>
+           2007 Bernhard Loos <nhuh.put@web.de> <nhuh.put@web.de.org>
+           2003, 2007 Matthias Kretz <kretz@kde.org>
+           2006, 2008 Aaron Seigo <aseigo@kde.org>
+           2006 Thiago Macieira <thiago@kde.org>
+           2008 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+           1984, 1989-1990, 2000-2006 Free Software Foundation Inc.
+           1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>
+           2008 Hamish Rodda <rodda@kde.org>
+           1999 Espen Sand <espen@kde.org>
+           1998-2005 Stephan Kulow <coolo@kde.org>
+           2001-2005 Lubos Lunak <l.lunak@kde.org>
+           2004-2008 Jarosław Staniek <staniek@kde.org>
+           2000-2004 Frerich Raabe <raabe@kde.org>
+           2000 Michael Matz <matz@kde.org>
+           2003-2004 Oswald Buddenhagen <ossi@kde.org>
+           1997-2000 Matthias Ettrich <ettrich@troll.no>
+           2005 Brad Hards <bradh@frogmouth.net>
+	   2006 Ralf Habacker <ralf.habacker@freenet.de>
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -181,10 +120,10 @@ License: LGPL-2+
 Files: src/kbuildsycoca/kbuildservicegroupfactory.h
        src/kbuildsycoca/kctimefactory.h
 Copyright: 2000 Waldo Bastian <bastian@kde.org>
-License: LGPL-any
+License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
- License version 2as published by the Free Software Foundation.
+ License version 2 as published by the Free Software Foundation.
  .
  This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -195,3 +134,6 @@ License: LGPL-any
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
