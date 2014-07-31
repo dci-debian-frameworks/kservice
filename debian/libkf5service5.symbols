@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 armhf
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -318,7 +318,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN8KServiceD0Ev@Base 4.96.0
  _ZN8KServiceD1Ev@Base 4.96.0
  _ZN8KServiceD2Ev@Base 4.96.0
- _ZN9QBitArray8clearBitEi@Base 4.96.0
  _ZNK10KAutostart10autostartsERK7QString6QFlagsINS_9ConditionEE@Base 4.96.0
  _ZNK10KAutostart10metaObjectEv@Base 4.96.0
  _ZNK10KAutostart10startAfterEv@Base 4.96.0
