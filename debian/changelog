@@ -2,6 +2,7 @@ kservice (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
+  * desktoptojson removed upstream
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:47:38 +0000
 
