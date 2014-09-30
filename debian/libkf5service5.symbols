@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 armhf
+# SymbolsHelper-Confirmed: 5.2.0+git20140930 i386
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -28,6 +28,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN10KAutostartD0Ev@Base 4.96.0
  _ZN10KAutostartD1Ev@Base 4.96.0
  _ZN10KAutostartD2Ev@Base 4.96.0
+ _ZN11KPluginInfo10toMetaDataERK5QListIS_E@Base 5.2.0+git20140930
+ _ZN11KPluginInfo10toMetaDataERKS_@Base 5.2.0+git20140930
+ _ZN11KPluginInfo12fromMetaDataERK15KPluginMetaData@Base 5.2.0+git20140930
+ _ZN11KPluginInfo12fromMetaDataERK7QVectorI15KPluginMetaDataE@Base 5.2.0+git20140930
  _ZN11KPluginInfo12fromServicesERK5QListI28QExplicitlySharedDataPointerI8KServiceEERK12KConfigGroup@Base 4.96.0
  _ZN11KPluginInfo16setPluginEnabledEb@Base 4.96.0
  _ZN11KPluginInfo22fromKPartsInstanceNameERK7QStringRK12KConfigGroup@Base 4.96.0
@@ -330,6 +334,8 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK10KAutostart23checkAllowedEnvironmentERK7QString@Base 4.96.0
  _ZNK10KAutostart7commandEv@Base 4.96.0
  _ZNK11KPluginInfo10pluginNameEv@Base 4.96.0
+ _ZNK11KPluginInfo10propertiesEv@Base 5.2.0+git20140930
+ _ZNK11KPluginInfo10toMetaDataEv@Base 5.2.0+git20140930
  _ZNK11KPluginInfo11kcmServicesEv@Base 4.96.0
  _ZNK11KPluginInfo11libraryPathEv@Base 4.96.0
  _ZNK11KPluginInfo12dependenciesEv@Base 4.96.0
