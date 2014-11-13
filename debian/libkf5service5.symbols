@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0+git20140930 i386
+# SymbolsHelper-Confirmed: 5.4.0+git20141113.1055+15.04 amd64 i386
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -41,11 +41,13 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN11KPluginInfo9fromFilesERK11QStringListRK12KConfigGroup@Base 4.96.0
  _ZN11KPluginInfo9setConfigERK12KConfigGroup@Base 4.96.0
  _ZN11KPluginInfoC1E28QExplicitlySharedDataPointerI8KServiceE@Base 4.96.0
+ _ZN11KPluginInfoC1ERK15KPluginMetaData@Base 5.4.0+git20141113.1055+15.04
  _ZN11KPluginInfoC1ERK5QListI8QVariantERK7QString@Base 4.96.0
  _ZN11KPluginInfoC1ERK7QString@Base 4.96.0
  _ZN11KPluginInfoC1ERKS_@Base 4.96.0
  _ZN11KPluginInfoC1Ev@Base 4.96.0
  _ZN11KPluginInfoC2E28QExplicitlySharedDataPointerI8KServiceE@Base 4.96.0
+ _ZN11KPluginInfoC2ERK15KPluginMetaData@Base 5.4.0+git20141113.1055+15.04
  _ZN11KPluginInfoC2ERK5QListI8QVariantERK7QString@Base 4.96.0
  _ZN11KPluginInfoC2ERK7QString@Base 4.96.0
  _ZN11KPluginInfoC2ERKS_@Base 4.96.0
