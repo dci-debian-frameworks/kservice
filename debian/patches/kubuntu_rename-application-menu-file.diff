@@ -4,22 +4,22 @@ deliberately not changed so unable to forward upstream.
 Forwarded: not-needed
 Author: Jonathan Riddell <jr@jriddell.org>
 
-Index: kservice-4.100.0/src/kbuildsycoca/CMakeLists.txt
+Index: kservice/src/kbuildsycoca/CMakeLists.txt
 ===================================================================
---- kservice-4.100.0.orig/src/kbuildsycoca/CMakeLists.txt
-+++ kservice-4.100.0/src/kbuildsycoca/CMakeLists.txt
+--- kservice.orig/src/kbuildsycoca/CMakeLists.txt
++++ kservice/src/kbuildsycoca/CMakeLists.txt
 @@ -32,5 +32,5 @@ install(TARGETS kbuildsycoca5 ${KF5_INST
  if (WIN32)
- install( FILES applications.menu  DESTINATION  ${SHARE_INSTALL_PREFIX}/xdg/menus )
+ install( FILES applications.menu  DESTINATION  ${KDE_INSTALL_DATAROOTDIR}/xdg/menus )
  else ()
--install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
-+install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus RENAME kf5-applications.menu )
+-install( FILES applications.menu  DESTINATION  ${KDE_INSTALL_SYSCONFDIR}/xdg/menus )
++install( FILES applications.menu  DESTINATION  ${KDE_INSTALL_SYSCONFDIR}/xdg/menus RENAME kf5-applications.menu )
  endif ()
-Index: kservice-4.100.0/src/kbuildsycoca/kbuildsycoca.cpp
+Index: kservice/src/kbuildsycoca/kbuildsycoca.cpp
 ===================================================================
---- kservice-4.100.0.orig/src/kbuildsycoca/kbuildsycoca.cpp
-+++ kservice-4.100.0/src/kbuildsycoca/kbuildsycoca.cpp
-@@ -305,7 +305,7 @@ bool KBuildSycoca::build()
+--- kservice.orig/src/kbuildsycoca/kbuildsycoca.cpp
++++ kservice/src/kbuildsycoca/kbuildsycoca.cpp
+@@ -307,7 +307,7 @@ bool KBuildSycoca::build()
              g_vfolder->setTrackId(m_trackId);
          }
  
