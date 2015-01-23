@@ -23,8 +23,8 @@ Index: kservice/src/kbuildsycoca/kbuildsycoca.cpp
              g_vfolder->setTrackId(m_trackId);
          }
  
--        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("applications.menu");
-+        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("kf5-applications.menu");
+-        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu(QStringLiteral("applications.menu"));
++        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu(QStringLiteral("kf5-applications.menu"));
  
-         KServiceGroup::Ptr entry = g_buildServiceGroupFactory->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
+         KServiceGroup::Ptr entry = g_buildServiceGroupFactory->addNew(QStringLiteral("/"), kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
          entry->setLayoutInfo(kdeMenu->layoutList);
