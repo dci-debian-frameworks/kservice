@@ -3,24 +3,21 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12),
                dbus-x11,
-               debhelper (>= 9.0.0),
+               debhelper (>= 9),
                docbook-xml,
                docbook-xsl,
                extra-cmake-modules (>= 1.6.0),
                kdoctools-dev (>= 5.6.0),
-               libkf5archive-dev (>= 5.6.0),
                libkf5config-dev (>= 5.6.0),
                libkf5coreaddons-dev (>= 5.6.0),
                libkf5crash-dev (>= 5.6.0),
                libkf5dbusaddons-dev (>= 5.6.0),
                libkf5i18n-dev (>= 5.6.0),
-               libkf5kjs-dev (>= 5.6.0),
-               libkf5windowsystem-dev (>= 5.6.0),
                libxml2-utils,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev
+               qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 XS-Testsuite: autopkgtest
@@ -30,10 +27,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kservice.git
 Package: libkf5service-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5config-dev,
-         libkf5coreaddons-dev,
-         libkf5dbusaddons-dev,
-         libkf5i18n-dev,
+Depends: libkf5config-dev (>= 5.6.0),
+         libkf5coreaddons-dev (>= 5.6.0),
+         libkf5dbusaddons-dev (>= 5.6.0),
+         libkf5i18n-dev (>= 5.6.0),
          libkf5service5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
