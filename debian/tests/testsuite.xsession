@@ -9,5 +9,6 @@ openbox &
 sleep 5
 kbuildsycoca5
 HOME=debian/tests.home dh_auto_test
+ret=$?
 rm -rf debian/home/tests.home
-
+exit $ret
