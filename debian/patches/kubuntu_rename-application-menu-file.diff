@@ -6,25 +6,26 @@ Author: Jonathan Riddell <jr@jriddell.org>
 
 Index: kservice/src/kbuildsycoca/CMakeLists.txt
 ===================================================================
---- kservice.orig/src/kbuildsycoca/CMakeLists.txt
-+++ kservice/src/kbuildsycoca/CMakeLists.txt
-@@ -32,5 +32,5 @@ install(TARGETS kbuildsycoca5 ${KF5_INST
+--- kservice.orig/src/kbuildsycoca/CMakeLists.txt	2015-01-27 13:25:04.674067679 +0100
++++ kservice/src/kbuildsycoca/CMakeLists.txt	2015-01-27 13:26:08.679482651 +0100
+@@ -32,5 +32,6 @@
  if (WIN32)
- install( FILES applications.menu  DESTINATION  ${KDE_INSTALL_DATAROOTDIR}/xdg/menus )
+ install( FILES applications.menu  DESTINATION  ${SHARE_INSTALL_PREFIX}/xdg/menus )
  else ()
--install( FILES applications.menu  DESTINATION  ${KDE_INSTALL_SYSCONFDIR}/xdg/menus )
-+install( FILES applications.menu  DESTINATION  ${KDE_INSTALL_SYSCONFDIR}/xdg/menus RENAME kf5-applications.menu )
+-install( FILES applications.menu  DESTINATION  ${SYSCONF_INSTALL_DIR}/xdg/menus )
++install( FILES applications.menu  DESTINATION ${SYSCONF_INSTALL_DIR}/xdg/menus
++   RENAME kf5-applications.menu )
  endif ()
 Index: kservice/src/kbuildsycoca/kbuildsycoca.cpp
 ===================================================================
---- kservice.orig/src/kbuildsycoca/kbuildsycoca.cpp
-+++ kservice/src/kbuildsycoca/kbuildsycoca.cpp
-@@ -307,7 +307,7 @@ bool KBuildSycoca::build()
+--- kservice.orig/src/kbuildsycoca/kbuildsycoca.cpp	2015-01-27 13:25:04.674067679 +0100
++++ kservice/src/kbuildsycoca/kbuildsycoca.cpp	2015-01-27 13:26:53.309680112 +0100
+@@ -307,7 +307,7 @@
              g_vfolder->setTrackId(m_trackId);
          }
  
--        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu(QStringLiteral("applications.menu"));
-+        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu(QStringLiteral("kf5-applications.menu"));
+-        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("applications.menu");
++        VFolderMenu::SubMenu *kdeMenu = g_vfolder->parseMenu("kf5-applications.menu");
  
-         KServiceGroup::Ptr entry = g_buildServiceGroupFactory->addNew(QStringLiteral("/"), kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
+         KServiceGroup::Ptr entry = g_buildServiceGroupFactory->addNew("/", kdeMenu->directoryFile, KServiceGroup::Ptr(), false);
          entry->setLayoutInfo(kdeMenu->layoutList);
