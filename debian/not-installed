@@ -1,6 +1,7 @@
 #installed by libkf5service5.manpages
 ./usr/share/man/man8/desktoptojson.8
 ./usr/share/man/man8/kbuildsycoca5.8
+./usr/share/man/it/man8/kbuildsycoca5.8
 ./usr/share/man/nl/man8/desktoptojson.8
 ./usr/share/man/nl/man8/kbuildsycoca5.8
 ./usr/share/man/pt_BR/man8/desktoptojson.8
