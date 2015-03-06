@@ -43,8 +43,9 @@ Description: development files for kservice
 Package: libkf5service5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5service-data (= ${source:Version})
+Depends: libkf5service-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: libkf5service-bin (= ${binary:Version})
 Description: Advanced plugin and service introspection
  Application framework for file type association
