@@ -1,11 +1,5 @@
 #installed by libkf5service-bin.manpages and libkf5service-dev.manpages
 ./usr/share/man/man8/desktoptojson.8
 ./usr/share/man/man8/kbuildsycoca5.8
-./usr/share/man/nl/man8/desktoptojson.8
-./usr/share/man/nl/man8/kbuildsycoca5.8
-./usr/share/man/pt_BR/man8/desktoptojson.8
-./usr/share/man/pt_BR/man8/kbuildsycoca5.8
-./usr/share/man/sv/man8/desktoptojson.8
-./usr/share/man/sv/man8/kbuildsycoca5.8
-./usr/share/man/uk/man8/desktoptojson.8
-./usr/share/man/uk/man8/kbuildsycoca5.8
+./usr/share/man/*/man8/desktoptojson.8
+./usr/share/man/*/man8/kbuildsycoca5.8
