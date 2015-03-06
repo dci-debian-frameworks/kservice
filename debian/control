@@ -21,7 +21,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 XS-Testsuite: autopkgtest
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kservice.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kservice.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kservice.git
 
 Package: libkf5service-dev
