@@ -1,8 +1,8 @@
-kservice (5.9.0-1~) UNRELEASED; urgency=medium
+kservice (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Apr 2015 10:26:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:36 +0200
 
 kservice (5.9.0-0ubuntu1) vivid; urgency=medium
 
