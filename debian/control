@@ -17,7 +17,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5i18n-dev (>= 5.10.0~),
                libxml2-utils,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 XS-Testsuite: autopkgtest
