@@ -125,10 +125,6 @@ Files: src/services/yacc.c
 Copyright: 1984-2006, Free Software Foundation, Inc.
 License: GPL-3+_BisonException
 
-Files: COPYING.GPL3
-Copyright: 2007, Free Software Foundation, Inc. <http://fsf.org/>
-License: GPL-3+
-
 Files: po/bg/kservice5.po
 Copyright: 2009-2013, Yasen Pramatarov <yasen@lindeas.com>
            2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
