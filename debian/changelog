@@ -1,10 +1,10 @@
-kservice (5.12.0-1~) UNRELEASED; urgency=medium
+kservice (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
   * Update symbols files for gcc5 compatibility. (Closes: #791744)
     Thanks to Martin Michlmayr
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 17:43:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:18 +0200
 
 kservice (5.11.0-1) unstable; urgency=medium
 
