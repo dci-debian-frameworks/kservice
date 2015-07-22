@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141113.1055+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -203,13 +203,13 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ERK7QStringS3_@Base 4.96.0
  _ZN16KMimeTypeFactory13MimeTypeEntryC2ER11QDataStreami@Base 4.96.0
  _ZN16KMimeTypeFactory13MimeTypeEntryC2ERK7QStringS3_@Base 4.96.0
- _ZN16KMimeTypeFactory13MimeTypeEntryD0Ev@Base 4.96.0
- _ZN16KMimeTypeFactory13MimeTypeEntryD1Ev@Base 4.96.0
- _ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4.96.0
+ (optional)_ZN16KMimeTypeFactory13MimeTypeEntryD0Ev@Base 4.96.0
+ (optional)_ZN16KMimeTypeFactory13MimeTypeEntryD1Ev@Base 4.96.0
+ (optional)_ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4.96.0
  _ZN16KMimeTypeFactory19serviceOffersOffsetERK7QString@Base 4.96.0
- _ZN16KMimeTypeFactory20MimeTypeEntryPrivateD0Ev@Base 4.96.0
- _ZN16KMimeTypeFactory20MimeTypeEntryPrivateD1Ev@Base 4.96.0
- _ZN16KMimeTypeFactory20MimeTypeEntryPrivateD2Ev@Base 4.96.0
+ (optional)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD0Ev@Base 4.96.0
+ (optional)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD1Ev@Base 4.96.0
+ (optional)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD2Ev@Base 4.96.0
  _ZN16KMimeTypeFactory4selfEv@Base 4.96.0
  _ZN16KMimeTypeFactoryC1Ev@Base 4.96.0
  _ZN16KMimeTypeFactoryC2Ev@Base 4.96.0
