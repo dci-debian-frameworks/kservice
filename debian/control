@@ -34,6 +34,8 @@ Depends: libkf5config-dev (>= 5.13.0~),
          libkf5service5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkf5service5 (<< 5.12.0~)
+Replaces: libkf5service5 (<< 5.12.0~)
 Description: development files for kservice
  Application framework for file type association
  and plugin locating.
@@ -64,6 +66,8 @@ Description: Advanced plugin and service introspection
 Package: libkf5service-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5service5 (<< 5.12.0~)
+Replaces: libkf5service5 (<< 5.12.0~)
 Description: Advanced plugin and service introspection
  Application framework for file type association
  and plugin locating.
