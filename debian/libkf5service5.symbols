@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141113.1055+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.13.0 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 ppc64el s390x
 libKF5Service.so.5 libkf5service5 #MINVER#
  KTraderParse_initFlex@Base 4.96.0
  KTraderParse_mainParse@Base 4.96.0
@@ -368,7 +368,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK11KSycocaDict5countEv@Base 4.96.0
  _ZNK11KSycocaDict7Private12offsetForKeyERK7QString@Base 4.96.0
  _ZNK11KSycocaDict7Private7hashKeyERK7QString@Base 4.96.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KServiceType11propertyDefERK7QString@Base 4.96.0
