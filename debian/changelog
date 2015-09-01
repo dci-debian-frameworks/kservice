@@ -1,6 +1,6 @@
 kservice (5.13.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Bump build dependencies versions.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 14:55:33 +0200
 
