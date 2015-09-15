@@ -1,11 +1,5 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64
+# SymbolsHelper-Confirmed: 5.14 amd64
 libKF5Service.so.5 libkf5service5 #MINVER#
- KTraderParse_initFlex@Base 4.96.0
- KTraderParse_mainParse@Base 4.96.0
- KTraderParse_putSimplePositiveFloat@Base 4.96.0
- KTraderParse_putString@Base 4.96.0
- KTraderParse_putSymbol@Base 4.96.0
- KTraderParse_putSymbolInBrackets@Base 4.96.0
  _Z5qHashRK11KPluginInfo@Base 4.96.0
  _ZN10KAutostart10setCommandERK7QString@Base 4.96.0
  _ZN10KAutostart11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -22,7 +16,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN10KAutostart25addToExcludedEnvironmentsERK7QString@Base 4.96.0
  _ZN10KAutostart29removeFromAllowedEnvironmentsERK7QString@Base 4.96.0
  _ZN10KAutostart30removeFromExcludedEnvironmentsERK7QString@Base 4.96.0
- _ZN10KAutostart7Private12copyIfNeededEv@Base 4.96.0
  _ZN10KAutostartC1ERK7QStringP7QObject@Base 4.96.0
  _ZN10KAutostartC2ERK7QStringP7QObject@Base 4.96.0
  _ZN10KAutostartD0Ev@Base 4.96.0
@@ -140,10 +133,11 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN14KSycocaFactory10saveHeaderER11QDataStream@Base 4.96.0
  _ZN14KSycocaFactory11removeEntryERK7QString@Base 4.96.0
  _ZN14KSycocaFactory12virtual_hookEiPv@Base 4.96.0
+ _ZN14KSycocaFactory14allDirectoriesERK7QString@Base 5.14
  _ZN14KSycocaFactory4saveER11QDataStream@Base 4.96.0
  _ZN14KSycocaFactory8addEntryERK28QExplicitlySharedDataPointerI12KSycocaEntryE@Base 4.96.0
- _ZN14KSycocaFactoryC1E16KSycocaFactoryId@Base 4.96.0
- _ZN14KSycocaFactoryC2E16KSycocaFactoryId@Base 4.96.0
+ _ZN14KSycocaFactoryC1E16KSycocaFactoryIdP7KSycoca@Base 5.14
+ _ZN14KSycocaFactoryC2E16KSycocaFactoryIdP7KSycoca@Base 5.14
  _ZN14KSycocaFactoryD0Ev@Base 4.96.0
  _ZN14KSycocaFactoryD1Ev@Base 4.96.0
  _ZN14KSycocaFactoryD2Ev@Base 4.96.0
@@ -156,17 +150,19 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN15KMimeTypeTraderD1Ev@Base 4.96.0
  _ZN15KMimeTypeTraderD2Ev@Base 4.96.0
  _ZN15KServiceFactory11allServicesEv@Base 4.96.0
+ _ZN15KServiceFactory12resourceDirsEv@Base 5.14
  _ZN15KServiceFactory12virtual_hookEiPv@Base 4.96.0
  _ZN15KServiceFactory13serviceOffersEii@Base 4.96.0
  _ZN15KServiceFactory17findServiceByNameERK7QString@Base 4.96.0
  _ZN15KServiceFactory19findServiceByMenuIdERK7QString@Base 4.96.0
+ _ZN15KServiceFactory22findServiceByStorageIdERK7QString@Base 5.14
  _ZN15KServiceFactory24findServiceByDesktopNameERK7QString@Base 4.96.0
  _ZN15KServiceFactory24findServiceByDesktopPathERK7QString@Base 4.96.0
  _ZN15KServiceFactory4selfEv@Base 4.96.0
  _ZN15KServiceFactory6offersEii@Base 4.96.0
  _ZN15KServiceFactory8hasOfferEiii@Base 4.96.0
- _ZN15KServiceFactoryC1Ev@Base 4.96.0
- _ZN15KServiceFactoryC2Ev@Base 4.96.0
+ _ZN15KServiceFactoryC1EP7KSycoca@Base 5.14
+ _ZN15KServiceFactoryC2EP7KSycoca@Base 5.14
  _ZN15KServiceFactoryD0Ev@Base 4.96.0
  _ZN15KServiceFactoryD1Ev@Base 4.96.0
  _ZN15KServiceFactoryD2Ev@Base 4.96.0
@@ -198,6 +194,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN15KToolInvocationD2Ev@Base 4.96.0
  _ZN16KMimeTypeFactory11entryOffsetERK7QString@Base 4.96.0
  _ZN16KMimeTypeFactory12allMimeTypesEv@Base 4.96.0
+ _ZN16KMimeTypeFactory12resourceDirsEv@Base 5.14
  _ZN16KMimeTypeFactory13MimeTypeEntry22setServiceOffersOffsetEi@Base 4.96.0
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ER11QDataStreami@Base 4.96.0
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ERK7QStringS3_@Base 4.96.0
@@ -207,12 +204,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  (optional)_ZN16KMimeTypeFactory13MimeTypeEntryD1Ev@Base 4.96.0
  (optional)_ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4.96.0
  _ZN16KMimeTypeFactory19serviceOffersOffsetERK7QString@Base 4.96.0
- (optional)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD0Ev@Base 4.96.0
- (optional)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD1Ev@Base 4.96.0
- (optional)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD2Ev@Base 4.96.0
+ _ZN16KMimeTypeFactory20MimeTypeEntryPrivate4saveER11QDataStream@Base 5.14
  _ZN16KMimeTypeFactory4selfEv@Base 4.96.0
- _ZN16KMimeTypeFactoryC1Ev@Base 4.96.0
- _ZN16KMimeTypeFactoryC2Ev@Base 4.96.0
+ _ZN16KMimeTypeFactoryC1EP7KSycoca@Base 5.14
+ _ZN16KMimeTypeFactoryC2EP7KSycoca@Base 5.14
  _ZN16KMimeTypeFactoryD0Ev@Base 4.96.0
  _ZN16KMimeTypeFactoryD1Ev@Base 4.96.0
  _ZN16KMimeTypeFactoryD2Ev@Base 4.96.0
@@ -231,13 +226,14 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN19KDBusServiceStarterD0Ev@Base 4.96.0
  _ZN19KDBusServiceStarterD1Ev@Base 4.96.0
  _ZN19KDBusServiceStarterD2Ev@Base 4.96.0
+ _ZN19KServiceTypeFactory12resourceDirsEv@Base 5.14
  _ZN19KServiceTypeFactory12virtual_hookEiPv@Base 4.96.0
  _ZN19KServiceTypeFactory15allServiceTypesEv@Base 4.96.0
  _ZN19KServiceTypeFactory21findServiceTypeByNameERK7QString@Base 4.96.0
  _ZN19KServiceTypeFactory22findPropertyTypeByNameERK7QString@Base 4.96.0
  _ZN19KServiceTypeFactory4selfEv@Base 4.96.0
- _ZN19KServiceTypeFactoryC1Ev@Base 4.96.0
- _ZN19KServiceTypeFactoryC2Ev@Base 4.96.0
+ _ZN19KServiceTypeFactoryC1EP7KSycoca@Base 5.14
+ _ZN19KServiceTypeFactoryC2EP7KSycoca@Base 5.14
  _ZN19KServiceTypeFactoryD0Ev@Base 4.96.0
  _ZN19KServiceTypeFactoryD1Ev@Base 4.96.0
  _ZN19KServiceTypeFactoryD2Ev@Base 4.96.0
@@ -250,8 +246,8 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN20KServiceGroupFactory13findBaseGroupERK7QStringb@Base 4.96.0
  _ZN20KServiceGroupFactory22findGroupByDesktopPathERK7QStringb@Base 4.96.0
  _ZN20KServiceGroupFactory4selfEv@Base 4.96.0
- _ZN20KServiceGroupFactoryC1Ev@Base 4.96.0
- _ZN20KServiceGroupFactoryC2Ev@Base 4.96.0
+ _ZN20KServiceGroupFactoryC1EP7KSycoca@Base 5.14
+ _ZN20KServiceGroupFactoryC2EP7KSycoca@Base 5.14
  _ZN20KServiceGroupFactoryD0Ev@Base 4.96.0
  _ZN20KServiceGroupFactoryD1Ev@Base 4.96.0
  _ZN20KServiceGroupFactoryD2Ev@Base 4.96.0
@@ -267,7 +263,8 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZN7KSycoca15databaseChangedEv@Base 4.96.0
  _ZN7KSycoca15updateSignatureEv@Base 4.96.0
  _ZN7KSycoca16absoluteFilePathENS_12DatabaseTypeE@Base 4.96.0
- _ZN7KSycoca16kfsstnd_prefixesEv@Base 4.96.0
+ _ZN7KSycoca16ensureCacheValidEv@Base 5.14
+ _ZN7KSycoca16readSycocaHeaderEv@Base 5.14
  _ZN7KSycoca16staticMetaObjectE@Base 4.96.0
  _ZN7KSycoca18disableAutoRebuildEv@Base 4.96.0
  _ZN7KSycoca21notifyDatabaseChangedERK11QStringList@Base 4.96.0
@@ -338,6 +335,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK11KPluginInfo10pluginNameEv@Base 4.96.0
  _ZNK11KPluginInfo10propertiesEv@Base 5.2.0+git20140930
  _ZNK11KPluginInfo10toMetaDataEv@Base 5.2.0+git20140930
+ _ZNK11KPluginInfo11formFactorsEv@Base 5.14
  _ZNK11KPluginInfo11kcmServicesEv@Base 4.96.0
  _ZNK11KPluginInfo11libraryPathEv@Base 4.96.0
  _ZNK11KPluginInfo12dependenciesEv@Base 4.96.0
@@ -366,8 +364,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZNK11KSycocaDict11find_stringERK7QString@Base 4.96.0
  _ZNK11KSycocaDict15findMultiStringERK7QString@Base 4.96.0
  _ZNK11KSycocaDict5countEv@Base 4.96.0
- _ZNK11KSycocaDict7Private12offsetForKeyERK7QString@Base 4.96.0
- _ZNK11KSycocaDict7Private7hashKeyERK7QString@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
@@ -525,40 +521,4 @@ libKF5Service.so.5 libkf5service5 #MINVER#
  _ZTVN16KMimeTypeFactory20MimeTypeEntryPrivateE@Base 4.96.0
  _ZlsR11QDataStreamRK14KServiceAction@Base 4.96.0
  _ZrsR11QDataStreamR14KServiceAction@Base 4.96.0
- kiotrader_create_buffer@Base 4.96.0
- kiotrader_delete_buffer@Base 4.96.0
- kiotrader_flush_buffer@Base 4.96.0
- kiotrader_scan_buffer@Base 4.96.0
- kiotrader_scan_bytes@Base 4.96.0
- kiotrader_scan_string@Base 4.96.0
- kiotrader_switch_to_buffer@Base 4.96.0
- kiotraderalloc@Base 4.96.0
- kiotradererror@Base 4.96.0
- kiotraderfree@Base 4.96.0
- kiotraderget_column@Base 4.96.0
- kiotraderget_debug@Base 4.96.0
- kiotraderget_extra@Base 4.96.0
- kiotraderget_in@Base 4.96.0
- kiotraderget_leng@Base 4.96.0
- kiotraderget_lineno@Base 4.96.0
- kiotraderget_lval@Base 4.96.0
- kiotraderget_out@Base 4.96.0
- kiotraderget_text@Base 4.96.0
- kiotraderlex@Base 4.96.0
- kiotraderlex_destroy@Base 4.96.0
- kiotraderlex_init@Base 4.96.0
- kiotraderlex_init_extra@Base 4.96.0
- kiotraderparse@Base 4.96.0
- kiotraderpop_buffer_state@Base 4.96.0
- kiotraderpush_buffer_state@Base 4.96.0
- kiotraderrealloc@Base 4.96.0
- kiotraderrestart@Base 4.96.0
- kiotraderset_column@Base 4.96.0
- kiotraderset_debug@Base 4.96.0
- kiotraderset_extra@Base 4.96.0
- kiotraderset_in@Base 4.96.0
- kiotraderset_lineno@Base 4.96.0
- kiotraderset_lval@Base 4.96.0
- kiotraderset_out@Base 4.96.0
- kiotraderwrap@Base 4.96.0
  kservice_require_kded@Base 4.96.0
