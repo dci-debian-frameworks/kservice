@@ -1,10 +1,10 @@
-kservice (5.14.0-1~) UNRELEASED; urgency=medium
+kservice (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
   * Refresh patches.
   * Removed private classes from exported symbols.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:30:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:50:23 +0200
 
 kservice (5.13.0-2) unstable; urgency=medium
 
