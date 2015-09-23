@@ -1,6 +1,7 @@
 kservice (5.14.3-0ubuntu1) wily; urgency=medium
 
   * new upstream release
+  * Added new symbols and removed MISSING
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:26:24 +0100
 
