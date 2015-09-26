@@ -1,8 +1,15 @@
-kservice (5.14.3-1~) UNRELEASED; urgency=medium
+kservice (5.14.3-1) unstable; urgency=medium
 
-  * New upstream release (5.14.3).
+  * Team upload.
+  * New upstream release
+  * Re-arrange internal package dependency relatiionships as was done with
+    kwallet so that users with Recommends disabled get a working package
+    (Closes: #799951)
+    - Add libkf5service-bin as an extra dependency in libkf5service5.symbols
+      so that packages that depend on libkf5service5 will also depend on
+      libkf5service-bin
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 20 Sep 2015 10:32:07 +0200
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 25 Sep 2015 23:40:27 -0400
 
 kservice (5.14.0-1) unstable; urgency=medium
 
