@@ -7,6 +7,8 @@ kservice (5.14.3-0ubuntu2) UNRELEASED; urgency=medium
     current tarball. 
   * Revert my version "fix". 
   * Remove symbols file for backport. 
+  * Put back the backport changes as the version bump has
+    the changed sources to implement change. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 17:07:32 -0700
 
