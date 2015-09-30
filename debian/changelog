@@ -6,6 +6,7 @@ kservice (5.14.3-0ubuntu2) UNRELEASED; urgency=medium
     and missing file. This change is not implemented in the 
     current tarball. 
   * Revert my version "fix". 
+  * Remove symbols file for backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 17:07:32 -0700
 
