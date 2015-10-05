@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64
+# SymbolsHelper-Confirmed: 5.14.3 alpha arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _Z5qHashRK11KPluginInfo@Base 4.96.0
  _ZN10KAutostart10setCommandERK7QString@Base 4.96.0
@@ -205,9 +205,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  (optional=gccinternal)_ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4.96.0
  _ZN16KMimeTypeFactory19serviceOffersOffsetERK7QString@Base 4.96.0
  _ZN16KMimeTypeFactory20MimeTypeEntryPrivate4saveER11QDataStream@Base 5.14.0
- (optional=gccinternal|arch=!amd64)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD0Ev@Base 4.96.0
- (optional=gccinternal|arch=!amd64)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD1Ev@Base 4.96.0
- (optional=gccinternal|arch=!amd64)_ZN16KMimeTypeFactory20MimeTypeEntryPrivateD2Ev@Base 4.96.0
  _ZN16KMimeTypeFactory4selfEv@Base 4.96.0
  _ZN16KMimeTypeFactoryC1EP7KSycoca@Base 5.14.0
  _ZN16KMimeTypeFactoryC2EP7KSycoca@Base 5.14.0
