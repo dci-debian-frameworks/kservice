@@ -5,6 +5,7 @@ kservice (5.15.0-1~) UNRELEASED; urgency=medium
   * Drop patch: kubuntu_rename-application-menu-file.diff
   * Update install files.
   * Update symbols files.
+  * Define applications_menu_name cmake var.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 15:08:12 +0200
 
