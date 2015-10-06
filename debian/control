@@ -63,6 +63,8 @@ Description: Advanced plugin and service introspection
 Package: libkf5service-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5service5 (<= 5.15)
+Replaces: libkf5service5 (<= 5.15)
 Description: Advanced plugin and service introspection
  Application framework for file type association
  and plugin locating.
