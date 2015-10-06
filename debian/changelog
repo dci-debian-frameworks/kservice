@@ -3,7 +3,6 @@ kservice (5.15.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.15.0).
   * Update symbols files from buildds logs (5.14.3-1).
   * Drop patch: kubuntu_rename-application-menu-file.diff
-  * Update install files.
   * Update symbols files.
   * Define applications_menu_name cmake var.
 
