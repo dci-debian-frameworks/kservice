@@ -1,17 +1,5 @@
 kservice (5.15.0-0ubuntu1) wily; urgency=medium
 
-  [ Scarlett Clark ]
-  * Fix version. 
-  * Vivid backport. 
-  * Remove from backport only, unused variable from rules
-    and missing file. This change is not implemented in the 
-    current tarball. 
-  * Revert my version "fix". 
-  * Remove symbols file for backport. 
-  * Put back the backport changes as the version bump has
-    the changed sources to implement change. 
-
-  [ Jonathan Riddell ]
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:55:57 +0100
