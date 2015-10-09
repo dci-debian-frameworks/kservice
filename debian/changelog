@@ -1,4 +1,4 @@
-kservice (5.15.0-1~1) UNRELEASED; urgency=medium
+kservice (5.15.0-1) unstable; urgency=medium
 
   * New upstream release (5.15.0).
   * Update symbols files from buildds logs (5.14.3-1).
@@ -6,7 +6,7 @@ kservice (5.15.0-1~1) UNRELEASED; urgency=medium
   * Update symbols files.
   * Define applications_menu_name cmake var.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Oct 2015 10:53:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:17:04 +0200
 
 kservice (5.14.3-1) unstable; urgency=medium
 
