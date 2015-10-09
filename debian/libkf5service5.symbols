@@ -198,7 +198,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZN15KServiceFactory22findServiceByStorageIdERK7QString@Base 5.14.0
  _ZN15KServiceFactory24findServiceByDesktopNameERK7QString@Base 4.96.0
  _ZN15KServiceFactory24findServiceByDesktopPathERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN15KServiceFactory4selfEv@Base 4.96.0
  _ZN15KServiceFactory6offersEii@Base 4.96.0
  _ZN15KServiceFactory8hasOfferEiii@Base 4.96.0
  _ZN15KServiceFactoryC1EP7KSycoca@Base 5.14.0
@@ -232,9 +231,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZN15KToolInvocationD0Ev@Base 4.96.0
  _ZN15KToolInvocationD1Ev@Base 4.96.0
  _ZN15KToolInvocationD2Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactory11entryOffsetERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactory12allMimeTypesEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactory12resourceDirsEv@Base 5.14.0
  _ZN16KMimeTypeFactory13MimeTypeEntry22setServiceOffersOffsetEi@Base 4.96.0
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ER11QDataStreami@Base 4.96.0
  _ZN16KMimeTypeFactory13MimeTypeEntryC1ERK7QStringS3_@Base 4.96.0
@@ -243,14 +239,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  (optional=gccinternal)_ZN16KMimeTypeFactory13MimeTypeEntryD0Ev@Base 4.96.0
  (optional=gccinternal)_ZN16KMimeTypeFactory13MimeTypeEntryD1Ev@Base 4.96.0
  (optional=gccinternal)_ZN16KMimeTypeFactory13MimeTypeEntryD2Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactory19serviceOffersOffsetERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactory20MimeTypeEntryPrivate4saveER11QDataStream@Base 5.14.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactory4selfEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactoryC1EP7KSycoca@Base 5.14.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactoryC2EP7KSycoca@Base 5.14.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactoryD0Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactoryD1Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN16KMimeTypeFactoryD2Ev@Base 4.96.0
  _ZN18KServiceTypeTrader14weightedOffersERK7QString@Base 4.96.0
  _ZN18KServiceTypeTrader16applyConstraintsER5QListI28QExplicitlySharedDataPointerI8KServiceEERK7QString@Base 4.96.0
  _ZN18KServiceTypeTrader4selfEv@Base 4.96.0
@@ -266,31 +254,9 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZN19KDBusServiceStarterD0Ev@Base 4.96.0
  _ZN19KDBusServiceStarterD1Ev@Base 4.96.0
  _ZN19KDBusServiceStarterD2Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactory12resourceDirsEv@Base 5.14.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactory12virtual_hookEiPv@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactory15allServiceTypesEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactory21findServiceTypeByNameERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactory22findPropertyTypeByNameERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactory4selfEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactoryC1EP7KSycoca@Base 5.14.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactoryC2EP7KSycoca@Base 5.14.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactoryD0Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactoryD1Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KServiceTypeFactoryD2Ev@Base 4.96.0
  _ZN19KServiceTypeProfile10hasProfileERK7QString@Base 4.96.0
  _ZN19KServiceTypeProfile23writeServiceTypeProfileERK7QStringRK5QListI28QExplicitlySharedDataPointerI8KServiceEES9_@Base 4.96.0
  _ZN19KServiceTypeProfile24deleteServiceTypeProfileERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KSycocaUtilsPrivate4readER11QDataStreamR11QStringList@Base 4.96.0
-#MISSING: 5.15.0# _ZN19KSycocaUtilsPrivate4readER11QDataStreamR7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactory12virtual_hookEiPv@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactory13findBaseGroupERK7QStringb@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactory22findGroupByDesktopPathERK7QStringb@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactory4selfEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactoryC1EP7KSycoca@Base 5.14.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactoryC2EP7KSycoca@Base 5.14.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactoryD0Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactoryD1Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN20KServiceGroupFactoryD2Ev@Base 4.96.0
  _ZN7KSycoca10addFactoryEP14KSycocaFactory@Base 4.96.0
  _ZN7KSycoca10isBuildingEv@Base 4.96.0
  _ZN7KSycoca11clearCachesEv@Base 4.96.0
@@ -306,10 +272,8 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZN7KSycoca15updateSignatureEv@Base 4.96.0
  _ZN7KSycoca16absoluteFilePathENS_12DatabaseTypeE@Base 4.96.0
  _ZN7KSycoca16ensureCacheValidEv@Base 5.14.0
-#MISSING: 5.15.0# _ZN7KSycoca16readSycocaHeaderEv@Base 5.14.0
  _ZN7KSycoca16staticMetaObjectE@Base 4.96.0
  _ZN7KSycoca18disableAutoRebuildEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN7KSycoca21notifyDatabaseChangedERK11QStringList@Base 4.96.0
  _ZN7KSycoca4selfEv@Base 4.96.0
  _ZN7KSycoca6streamEv@Base 4.96.0
  _ZN7KSycoca7versionEv@Base 4.96.0
@@ -326,21 +290,6 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZN7KSycocaD0Ev@Base 4.96.0
  _ZN7KSycocaD1Ev@Base 4.96.0
  _ZN7KSycocaD2Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile19fileContentsChangedERK7QString@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile4seekEx@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile5closeEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile7Private20loadContentsFromFileEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile7Private5closeEv@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile7Private9getShmKeyERK7QStringi@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile7Private9getShmKeyEi@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile8readDataEPcx@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFile9writeDataEPKcx@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFileC1ERK7QStringP7QObject@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFileC2ERK7QStringP7QObject@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFileD0Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFileD1Ev@Base 4.96.0
-#MISSING: 5.15.0# _ZN8KMemFileD2Ev@Base 4.96.0
  _ZN8KService11allServicesEv@Base 4.96.0
  _ZN8KService11setTerminalEb@Base 4.96.0
  _ZN8KService14newServicePathEbRK7QStringPS0_PK11QStringList@Base 4.96.0
@@ -466,17 +415,11 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZNK15KMimeTypeTrader5queryERK7QStringS2_S2_@Base 4.96.0
  _ZNK15KServiceFactory11createEntryEi@Base 4.96.0
  _ZNK15KToolInvocation10metaObjectEv@Base 4.96.0
-#MISSING: 5.15.0# _ZNK16KMimeTypeFactory11createEntryEi@Base 4.96.0
  _ZNK16KMimeTypeFactory13MimeTypeEntry19serviceOffersOffsetEv@Base 4.96.0
  _ZNK18KServiceTypeTrader13defaultOffersERK7QStringS2_@Base 4.96.0
  _ZNK18KServiceTypeTrader16preferredServiceERK7QString@Base 4.96.0
  _ZNK18KServiceTypeTrader5queryERK7QStringS2_@Base 4.96.0
-#MISSING: 5.15.0# _ZNK19KServiceTypeFactory11createEntryEi@Base 4.96.0
-#MISSING: 5.15.0# _ZNK20KServiceGroupFactory11createEntryEi@Base 4.96.0
-#MISSING: 5.15.0# _ZNK20KServiceGroupFactory11createGroupEib@Base 4.96.0
  _ZNK7KSycoca10metaObjectEv@Base 4.96.0
-#MISSING: 5.15.0# _ZNK8KMemFile12isSequentialEv@Base 4.96.0
-#MISSING: 5.15.0# _ZNK8KMemFile4sizeEv@Base 4.96.0
  _ZNK8KService10categoriesEv@Base 4.96.0
  _ZNK8KService11genericNameEv@Base 4.96.0
  _ZNK8KService11hasMimeTypeERK7QString@Base 4.96.0
@@ -521,15 +464,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZTI14KSycocaFactory@Base 4.96.0
  _ZTI15KServiceFactory@Base 4.96.0
  _ZTI15KToolInvocation@Base 4.96.0
-#MISSING: 5.15.0# _ZTI16KMimeTypeFactory@Base 4.96.0
  _ZTI19KDBusServiceStarter@Base 4.96.0
-#MISSING: 5.15.0# _ZTI19KServiceTypeFactory@Base 4.96.0
-#MISSING: 5.15.0# _ZTI20KServiceGroupFactory@Base 4.96.0
  _ZTI7KSycoca@Base 4.96.0
-#MISSING: 5.15.0# _ZTI8KMemFile@Base 4.96.0
  _ZTI8KService@Base 4.96.0
  _ZTIN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
-#MISSING: 5.15.0# _ZTIN16KMimeTypeFactory20MimeTypeEntryPrivateE@Base 4.96.0
  _ZTS10KAutostart@Base 4.96.0
  _ZTS11QSharedData@Base 4.96.0
  _ZTS12KBuildSycoca@Base 5.15.0
@@ -539,15 +477,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZTS14KSycocaFactory@Base 4.96.0
  _ZTS15KServiceFactory@Base 4.96.0
  _ZTS15KToolInvocation@Base 4.96.0
-#MISSING: 5.15.0# _ZTS16KMimeTypeFactory@Base 4.96.0
  _ZTS19KDBusServiceStarter@Base 4.96.0
-#MISSING: 5.15.0# _ZTS19KServiceTypeFactory@Base 4.96.0
-#MISSING: 5.15.0# _ZTS20KServiceGroupFactory@Base 4.96.0
  _ZTS7KSycoca@Base 4.96.0
-#MISSING: 5.15.0# _ZTS8KMemFile@Base 4.96.0
  _ZTS8KService@Base 4.96.0
  _ZTSN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
-#MISSING: 5.15.0# _ZTSN16KMimeTypeFactory20MimeTypeEntryPrivateE@Base 4.96.0
  _ZTV10KAutostart@Base 4.96.0
  _ZTV12KBuildSycoca@Base 5.15.0
  _ZTV12KServiceType@Base 4.96.0
@@ -556,15 +489,10 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZTV14KSycocaFactory@Base 4.96.0
  _ZTV15KServiceFactory@Base 4.96.0
  _ZTV15KToolInvocation@Base 4.96.0
-#MISSING: 5.15.0# _ZTV16KMimeTypeFactory@Base 4.96.0
  _ZTV19KDBusServiceStarter@Base 4.96.0
-#MISSING: 5.15.0# _ZTV19KServiceTypeFactory@Base 4.96.0
-#MISSING: 5.15.0# _ZTV20KServiceGroupFactory@Base 4.96.0
  _ZTV7KSycoca@Base 4.96.0
-#MISSING: 5.15.0# _ZTV8KMemFile@Base 4.96.0
  _ZTV8KService@Base 4.96.0
  _ZTVN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
-#MISSING: 5.15.0# _ZTVN16KMimeTypeFactory20MimeTypeEntryPrivateE@Base 4.96.0
  _ZlsR11QDataStreamRK14KServiceAction@Base 4.96.0
  _ZrsR11QDataStreamR14KServiceAction@Base 4.96.0
  kservice_require_kded@Base 4.96.0
