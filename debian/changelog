@@ -1,6 +1,7 @@
-kservice (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+kservice (5.15.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
+  * Critical bugfix - new tarball. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 08 Oct 2015 11:07:03 -0700
 
