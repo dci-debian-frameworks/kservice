@@ -1,3 +1,9 @@
+kservice (5.15.0+-1~) UNRELEASED; urgency=medium
+
+  * Respin of the fixed upstream release 5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 13 Oct 2015 19:36:26 +0200
+
 kservice (5.15.0-1) unstable; urgency=medium
 
   * New upstream release (5.15.0).
