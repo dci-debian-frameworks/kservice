@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 5.15.0 amd64
-libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
+# SymbolsHelper-Confirmed: 5.18.0+git20160302.1815+16.04 amd64 i386
+libKF5Service.so.5 libkf5service5 #MINVER#
  _Z5qHashRK11KPluginInfo@Base 4.96.0
  _ZN10KAutostart10setCommandERK7QString@Base 4.96.0
  _ZN10KAutostart11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -493,6 +493,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZTV7KSycoca@Base 4.96.0
  _ZTV8KService@Base 4.96.0
  _ZTVN16KMimeTypeFactory13MimeTypeEntryE@Base 4.96.0
+ _ZZZN15KMimeTypeTrader16preferredServiceERK7QStringS2_Ed_NKUlvE_clEvE15qstring_literal@Base 5.18.0+git20160302.1815+16.04
  _ZlsR11QDataStreamRK14KServiceAction@Base 4.96.0
  _ZrsR11QDataStreamR14KServiceAction@Base 4.96.0
  kservice_require_kded@Base 4.96.0
