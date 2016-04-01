@@ -1,6 +1,6 @@
-kservice (5.20.0-1~1.gbp0d433c) UNRELEASED; urgency=medium
+kservice (5.20.0-1~2.gbpcb45e7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0d433c84058d2f4aed0700e6c00dec8ef31d9665 **
+  ** SNAPSHOT build @cb45e7f5cfcea0d8f64ee5b0f6e1b2fe2594158f **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ kservice (5.20.0-1~1.gbp0d433c) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:33:29 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:32:13 +0200
 
 kservice (5.19.0-1) experimental; urgency=medium
 
