@@ -1,6 +1,6 @@
-kservice (5.20.0-1~3.gbp6cea7d) UNRELEASED; urgency=medium
+kservice (5.21.0-1~1.gbpae5a62) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6cea7dedea647f45c4c8285d7897d5668a3e8ef8 **
+  ** SNAPSHOT build @ae5a624d1256c0c74300fcf71eac16c4b04416c1 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,15 @@ kservice (5.20.0-1~3.gbp6cea7d) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:32:23 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:32:26 +0200
 
 kservice (5.19.0-1) experimental; urgency=medium
 
