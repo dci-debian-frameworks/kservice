@@ -8,16 +8,16 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                docbook-xml,
                docbook-xsl,
-               extra-cmake-modules (>= 5.20.0~),
-               kdoctools-dev (>= 5.20.0~),
-               libkf5config-dev (>= 5.20.0~),
-               libkf5coreaddons-dev (>= 5.20.0~),
-               libkf5crash-dev (>= 5.20.0~),
-               libkf5dbusaddons-dev (>= 5.20.0~),
-               libkf5i18n-dev (>= 5.20.0~),
+               extra-cmake-modules (>= 5.21.0~),
+               kdoctools-dev (>= 5.21.0~),
+               libkf5config-dev (>= 5.21.0~),
+               libkf5coreaddons-dev (>= 5.21.0~),
+               libkf5crash-dev (>= 5.21.0~),
+               libkf5dbusaddons-dev (>= 5.21.0~),
+               libkf5i18n-dev (>= 5.21.0~),
                libxml2-utils,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4)
+               qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kservice.git
@@ -26,10 +26,10 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kservice.git
 Package: libkf5service-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5config-dev (>= 5.20.0~),
-         libkf5coreaddons-dev (>= 5.20.0~),
-         libkf5dbusaddons-dev (>= 5.20.0~),
-         libkf5i18n-dev (>= 5.20.0~),
+Depends: libkf5config-dev (>= 5.21.0~),
+         libkf5coreaddons-dev (>= 5.21.0~),
+         libkf5dbusaddons-dev (>= 5.21.0~),
+         libkf5i18n-dev (>= 5.21.0~),
          libkf5service5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
