@@ -7,7 +7,7 @@ override_dh_auto_configure:
 	$(overridden_command) -- -DAPPLICATIONS_MENU_NAME="kf5-applications.menu"
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libkf5service5-dbg
+	$(overridden_command) --dbgsym-migration='libkf5service5-dbg (<= 5.19.0-1~~)'
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
