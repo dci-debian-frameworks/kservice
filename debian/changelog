@@ -1,3 +1,12 @@
+kservice (5.22.0-1~1.gbp299a7c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @299a7cfd665c3120f3b55b5cec4de385d642eb30 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:32:30 +0200
+
 kservice (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
