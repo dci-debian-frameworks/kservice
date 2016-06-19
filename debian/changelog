@@ -1,10 +1,9 @@
-kservice (5.23.0-1~1.gbpe00034) UNRELEASED; urgency=medium
+kservice (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e00034c922e4f2115169318c29f220852c5945a6 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 00:33:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 09:44:31 +0200
 
 kservice (5.22.0-1) unstable; urgency=medium
 
