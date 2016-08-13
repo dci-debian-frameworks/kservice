@@ -1,10 +1,11 @@
-kservice (5.24.0-1~1.gbpcdf278) UNRELEASED; urgency=medium
+kservice (5.25.0-1~1.gbp87faf7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cdf278bc2fe3a4701a4acd5f27c424ae76ac1ba7 **
+  ** SNAPSHOT build @87faf7e102c7ff24b70c5ddef683ce6560f6f04c **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 12:32:20 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 18:32:12 +0200
 
 kservice (5.23.0-1) unstable; urgency=medium
 
