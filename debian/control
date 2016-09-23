@@ -42,14 +42,6 @@ Description: development files for kservice
  and plugin locating.
  .
  Contains development files for kservice.
-Breaks: kded5-dev (<< 5.25),
-        kio-dev (<< 5.25),
-        libkf5emoticons-dev (<< 5.25),
-        libkf5kcmutils-dev (<< 5.25),
-        libkf5kio-dev (<< 5.25),
-        libkf5plasma-dev (<< 5.25),
-        libkf5textwidgets-dev (<< 5.25),
-        plasma-framework-dev (<< 5.25)
 
 Package: libkf5service5
 Architecture: any
