@@ -1,10 +1,12 @@
-kservice (5.26.0-1~1.gbp6ba0d5) UNRELEASED; urgency=medium
+kservice (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @6ba0d5f96823da23198f0a17705be54e2433d866 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 17:10:05 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:00:45 +0200
 
 kservice (5.25.0-1) unstable; urgency=medium
 
