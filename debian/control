@@ -40,14 +40,14 @@ Description: development files for kservice
  and plugin locating.
  .
  Contains development files for kservice.
-Breaks: kded5-dev (<< 5.27),
-        kio-dev (<< 5.27),
-        libkf5emoticons-dev (<< 5.27),
-        libkf5kcmutils-dev (<< 5.27),
-        libkf5kio-dev (<< 5.27),
-        libkf5plasma-dev (<< 5.27),
-        libkf5textwidgets-dev (<< 5.27),
-        plasma-framework-dev (<< 5.27)
+Breaks: kded5-dev (<< 5.28),
+        kio-dev (<< 5.28),
+        libkf5emoticons-dev (<< 5.28),
+        libkf5kcmutils-dev (<< 5.28),
+        libkf5kio-dev (<< 5.28),
+        libkf5plasma-dev (<< 5.28),
+        libkf5textwidgets-dev (<< 5.28),
+        plasma-framework-dev (<< 5.28)
 
 Package: libkf5service5
 Architecture: any
@@ -59,29 +59,29 @@ Recommends: libkf5service-bin (= ${binary:Version})
 Description: Advanced plugin and service introspection
  Application framework for file type association
  and plugin locating.
-Breaks: kded5 (<< 5.27),
-        kinit (<< 5.27),
-        kio (<< 5.27),
-        libkf5emoticons5 (<< 5.27),
-        libkf5kcmutils5 (<< 5.27),
-        libkf5kdelibs4support5 (<< 5.27),
-        libkf5khtml-bin (<< 5.27),
-        libkf5khtml5 (<< 5.27),
-        libkf5kiocore5 (<< 5.27),
-        libkf5kiowidgets5 (<< 5.27),
-        libkf5newstuff5 (<< 5.27),
-        libkf5parts5 (<< 5.27),
-        libkf5people5 (<< 5.27),
-        libkf5peoplewidgets5 (<< 5.27),
-        libkf5plasma5 (<< 5.27),
-        libkf5plasmaquick5 (<< 5.27),
-        libkf5runner5 (<< 5.27),
-        libkf5su5 (<< 5.27),
-        libkf5textwidgets5 (<< 5.27),
-        libkf5wallet-bin (<< 5.27),
-        libkf5webkit5 (<< 5.27),
-        plasma-framework (<< 5.27),
-        qml-module-org-kde-kio (<< 5.27)
+Breaks: kded5 (<< 5.28),
+        kinit (<< 5.28),
+        kio (<< 5.28),
+        libkf5emoticons5 (<< 5.28),
+        libkf5kcmutils5 (<< 5.28),
+        libkf5kdelibs4support5 (<< 5.28),
+        libkf5khtml-bin (<< 5.28),
+        libkf5khtml5 (<< 5.28),
+        libkf5kiocore5 (<< 5.28),
+        libkf5kiowidgets5 (<< 5.28),
+        libkf5newstuff5 (<< 5.28),
+        libkf5parts5 (<< 5.28),
+        libkf5people5 (<< 5.28),
+        libkf5peoplewidgets5 (<< 5.28),
+        libkf5plasma5 (<< 5.28),
+        libkf5plasmaquick5 (<< 5.28),
+        libkf5runner5 (<< 5.28),
+        libkf5su5 (<< 5.28),
+        libkf5textwidgets5 (<< 5.28),
+        libkf5wallet-bin (<< 5.28),
+        libkf5webkit5 (<< 5.28),
+        plasma-framework (<< 5.28),
+        qml-module-org-kde-kio (<< 5.28)
 
 Package: libkf5service-data
 Architecture: all
@@ -96,30 +96,30 @@ Description: Advanced plugin and service introspection
 Package: libkf5service-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kded5 (<< 5.27),
-        kinit (<< 5.27),
-        kio (<< 5.27),
-        libkf5emoticons5 (<< 5.27),
-        libkf5kcmutils5 (<< 5.27),
-        libkf5kdelibs4support5 (<< 5.27),
-        libkf5khtml-bin (<< 5.27),
-        libkf5khtml5 (<< 5.27),
-        libkf5kiocore5 (<< 5.27),
-        libkf5kiowidgets5 (<< 5.27),
-        libkf5newstuff5 (<< 5.27),
-        libkf5parts5 (<< 5.27),
-        libkf5people5 (<< 5.27),
-        libkf5peoplewidgets5 (<< 5.27),
-        libkf5plasma5 (<< 5.27),
-        libkf5plasmaquick5 (<< 5.27),
-        libkf5runner5 (<< 5.27),
+Breaks: kded5 (<< 5.28),
+        kinit (<< 5.28),
+        kio (<< 5.28),
+        libkf5emoticons5 (<< 5.28),
+        libkf5kcmutils5 (<< 5.28),
+        libkf5kdelibs4support5 (<< 5.28),
+        libkf5khtml-bin (<< 5.28),
+        libkf5khtml5 (<< 5.28),
+        libkf5kiocore5 (<< 5.28),
+        libkf5kiowidgets5 (<< 5.28),
+        libkf5newstuff5 (<< 5.28),
+        libkf5parts5 (<< 5.28),
+        libkf5people5 (<< 5.28),
+        libkf5peoplewidgets5 (<< 5.28),
+        libkf5plasma5 (<< 5.28),
+        libkf5plasmaquick5 (<< 5.28),
+        libkf5runner5 (<< 5.28),
         libkf5service5 (<= 5.15),
-        libkf5su5 (<< 5.27),
-        libkf5textwidgets5 (<< 5.27),
-        libkf5wallet-bin (<< 5.27),
-        libkf5webkit5 (<< 5.27),
-        plasma-framework (<< 5.27),
-        qml-module-org-kde-kio (<< 5.27)
+        libkf5su5 (<< 5.28),
+        libkf5textwidgets5 (<< 5.28),
+        libkf5wallet-bin (<< 5.28),
+        libkf5webkit5 (<< 5.28),
+        plasma-framework (<< 5.28),
+        qml-module-org-kde-kio (<< 5.28)
 Replaces: libkf5service5 (<= 5.15)
 Description: Advanced plugin and service introspection
  Application framework for file type association
