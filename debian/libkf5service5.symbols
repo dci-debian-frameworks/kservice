@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _Z5qHashRK11KPluginInfo@Base 4.96.0
  _ZN10KAutostart10setCommandERK7QString@Base 4.96.0
@@ -433,6 +433,7 @@ libKF5Service.so.5 libkf5service5 #MINVER#, libkf5service-bin
  _ZNK8KService15dbusStartupTypeEv@Base 4.96.0
  _ZNK8KService15terminalOptionsEv@Base 4.96.0
  _ZNK8KService16desktopEntryNameEv@Base 4.96.0
+ _ZNK8KService16runOnDiscreteGpuEv@Base 5.35.0
  _ZNK8KService17initialPreferenceEv@Base 4.96.0
  _ZNK8KService18allowMultipleFilesEv@Base 4.96.0
  _ZNK8KService20showInCurrentDesktopEv@Base 4.99.0
