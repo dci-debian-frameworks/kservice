@@ -1,7 +1,4 @@
 #!/bin/sh
 
-if [ -d /usr/lib/ccache ]; then
-    export PATH="/usr/lib/ccache:$PATH"
-fi
 xvfb-run -a --server-args="-screen 0 1024x768x24+32" \
     dbus-run-session -- debian/tests/testsuite.xsession
