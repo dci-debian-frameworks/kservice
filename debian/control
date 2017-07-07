@@ -28,6 +28,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kservice.git
 Package: libkf5service-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5config-dev (>= 5.35.0~),
          libkf5coreaddons-dev (>= 5.35.0~),
          libkf5dbusaddons-dev (>= 5.35.0~),
