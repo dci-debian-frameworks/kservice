@@ -1,4 +1,4 @@
-kservice (5.35.0-1~1) UNRELEASED; urgency=medium
+kservice (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -7,6 +7,8 @@ kservice (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump group breaks (5.35)
   * Update symbols files.
   * Let autopkgtest build the tree
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * also include signing-key
@@ -18,7 +20,7 @@ kservice (5.35.0-1~1) UNRELEASED; urgency=medium
   [ Helmut Grohne ]
   * Mark libkf5service-dev Multi-Arch: same (Closes: 865137)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 10:07:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:43:26 +0200
 
 kservice (5.28.0-1) unstable; urgency=medium
 
