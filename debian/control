@@ -99,6 +99,16 @@ Breaks: kded5-dev (<< 5.37),
         libkf5textwidgets-dev (<< 5.37),
         plasma-framework-dev (<< 5.28),
 
+Package: libkf5service-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Advanced plugin and service introspection (documentation)
+ Application framework for file type association
+ and plugin locating.
+ .
+ This package contains the qch documentation files.
+
 Package: libkf5service5
 Architecture: any
 Multi-Arch: same
@@ -132,13 +142,3 @@ Breaks: kded5 (<< 5.37),
         libkf5webkit5 (<< 5.37),
         plasma-framework (<< 5.37),
         qml-module-org-kde-kio (<< 5.37),
-
-Package: libkf5service-doc
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}
-Description: Advanced plugin and service introspection (documentation)
- Application framework for file type association
- and plugin locating.
- .
- This package contains the qch documentation files.
