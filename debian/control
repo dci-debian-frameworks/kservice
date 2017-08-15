@@ -9,90 +9,25 @@ Build-Depends: bison,
                debhelper (>= 9),
                docbook-xml,
                docbook-xsl,
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
                flex,
+               graphviz,
                libkf5config-dev (>= 5.37.0~),
                libkf5coreaddons-dev (>= 5.37.0~),
                libkf5crash-dev (>= 5.37.0~),
                libkf5dbusaddons-dev (>= 5.37.0~),
                libkf5doctools-dev (>= 5.37.0~),
                libkf5i18n-dev (>= 5.37.0~),
+               libqt5sql5-sqlite,
                libxml2-utils,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kservice
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kservice.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kservice.git
-
-Package: libkf5service-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5config-dev (>= 5.37.0~),
-         libkf5coreaddons-dev (>= 5.37.0~),
-         libkf5dbusaddons-dev (>= 5.37.0~),
-         libkf5i18n-dev (>= 5.37.0~),
-         libkf5service5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: development files for kservice
- Application framework for file type association
- and plugin locating.
- .
- Contains development files for kservice.
-Breaks: kded5-dev (<< 5.37),
-        kio-dev (<< 5.28),
-        libkf5emoticons-dev (<< 5.37),
-        libkf5kcmutils-dev (<< 5.37),
-        libkf5kio-dev (<< 5.37),
-        libkf5plasma-dev (<< 5.37),
-        libkf5textwidgets-dev (<< 5.37),
-        plasma-framework-dev (<< 5.28)
-
-Package: libkf5service5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5service-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5service-bin (= ${binary:Version})
-Description: Advanced plugin and service introspection
- Application framework for file type association
- and plugin locating.
-Breaks: kded5 (<< 5.37),
-        kinit (<< 5.37),
-        kio (<< 5.37),
-        libkf5emoticons5 (<< 5.37),
-        libkf5kcmutils5 (<< 5.37),
-        libkf5kdelibs4support5 (<< 5.37),
-        libkf5khtml-bin (<< 5.37),
-        libkf5khtml5 (<< 5.37),
-        libkf5kiocore5 (<< 5.37),
-        libkf5kiowidgets5 (<< 5.37),
-        libkf5newstuff5 (<< 5.37),
-        libkf5parts5 (<< 5.37),
-        libkf5people5 (<< 5.37),
-        libkf5peoplewidgets5 (<< 5.37),
-        libkf5plasma5 (<< 5.37),
-        libkf5plasmaquick5 (<< 5.37),
-        libkf5runner5 (<< 5.37),
-        libkf5su5 (<< 5.37),
-        libkf5textwidgets5 (<< 5.37),
-        libkf5wallet-bin (<< 5.37),
-        libkf5webkit5 (<< 5.37),
-        plasma-framework (<< 5.37),
-        qml-module-org-kde-kio (<< 5.37)
-
-Package: libkf5service-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Advanced plugin and service introspection
- Application framework for file type association
- and plugin locating.
- .
- This package contains shared data files.
 
 Package: libkf5service-bin
 Architecture: any
@@ -120,10 +55,90 @@ Breaks: kded5 (<< 5.37),
         libkf5wallet-bin (<< 5.37),
         libkf5webkit5 (<< 5.37),
         plasma-framework (<< 5.37),
-        qml-module-org-kde-kio (<< 5.37)
+        qml-module-org-kde-kio (<< 5.37),
 Replaces: libkf5service5 (<= 5.15)
 Description: Advanced plugin and service introspection
  Application framework for file type association
  and plugin locating.
  .
  This package contains kbuildsycoca5.
+
+Package: libkf5service-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Advanced plugin and service introspection
+ Application framework for file type association
+ and plugin locating.
+ .
+ This package contains shared data files.
+
+Package: libkf5service-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5config-dev (>= 5.37.0~),
+         libkf5coreaddons-dev (>= 5.37.0~),
+         libkf5dbusaddons-dev (>= 5.37.0~),
+         libkf5i18n-dev (>= 5.37.0~),
+         libkf5service5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf5service5-doc (= ${source:Version})
+Description: development files for kservice
+ Application framework for file type association
+ and plugin locating.
+ .
+ Contains development files for kservice.
+Breaks: kded5-dev (<< 5.37),
+        kio-dev (<< 5.28),
+        libkf5emoticons-dev (<< 5.37),
+        libkf5kcmutils-dev (<< 5.37),
+        libkf5kio-dev (<< 5.37),
+        libkf5plasma-dev (<< 5.37),
+        libkf5textwidgets-dev (<< 5.37),
+        plasma-framework-dev (<< 5.28),
+
+Package: libkf5service5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5service-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf5service-bin (= ${binary:Version})
+Description: Advanced plugin and service introspection
+ Application framework for file type association
+ and plugin locating.
+Breaks: kded5 (<< 5.37),
+        kinit (<< 5.37),
+        kio (<< 5.37),
+        libkf5emoticons5 (<< 5.37),
+        libkf5kcmutils5 (<< 5.37),
+        libkf5kdelibs4support5 (<< 5.37),
+        libkf5khtml-bin (<< 5.37),
+        libkf5khtml5 (<< 5.37),
+        libkf5kiocore5 (<< 5.37),
+        libkf5kiowidgets5 (<< 5.37),
+        libkf5newstuff5 (<< 5.37),
+        libkf5parts5 (<< 5.37),
+        libkf5people5 (<< 5.37),
+        libkf5peoplewidgets5 (<< 5.37),
+        libkf5plasma5 (<< 5.37),
+        libkf5plasmaquick5 (<< 5.37),
+        libkf5runner5 (<< 5.37),
+        libkf5su5 (<< 5.37),
+        libkf5textwidgets5 (<< 5.37),
+        libkf5wallet-bin (<< 5.37),
+        libkf5webkit5 (<< 5.37),
+        plasma-framework (<< 5.37),
+        qml-module-org-kde-kio (<< 5.37),
+
+Package: libkf5service-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Advanced plugin and service introspection (documentation)
+ Application framework for file type association
+ and plugin locating.
+ .
+ This package contains the qch documentation files.
