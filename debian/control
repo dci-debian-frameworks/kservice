@@ -108,6 +108,7 @@ Description: Advanced plugin and service introspection (documentation)
  and plugin locating.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5service5
 Architecture: any
