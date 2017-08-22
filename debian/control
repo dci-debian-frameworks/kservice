@@ -84,7 +84,7 @@ Depends: libkf5config-dev (>= 5.37.0~),
          libkf5service5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Recommends: libkf5service5-doc (= ${source:Version})
+Recommends: libkf5service-doc (= ${source:Version})
 Description: development files for kservice
  Application framework for file type association
  and plugin locating.
