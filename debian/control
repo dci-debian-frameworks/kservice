@@ -85,11 +85,6 @@ Depends: libkf5config-dev (>= 5.38.0~),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: libkf5service-doc (= ${source:Version})
-Description: development files for kservice
- Application framework for file type association
- and plugin locating.
- .
- Contains development files for kservice.
 Breaks: kded5-dev (<< 5.37),
         kio-dev (<< 5.28),
         libkf5emoticons-dev (<< 5.37),
@@ -98,6 +93,13 @@ Breaks: kded5-dev (<< 5.37),
         libkf5plasma-dev (<< 5.37),
         libkf5textwidgets-dev (<< 5.37),
         plasma-framework-dev (<< 5.28),
+        libkf5service5 (<< 5.12.0~),
+Replaces: libkf5service5 (<< 5.12.0~)
+Description: development files for kservice
+ Application framework for file type association
+ and plugin locating.
+ .
+ Contains development files for kservice.
 
 Package: libkf5service-doc
 Architecture: all
