@@ -1,3 +1,9 @@
+kservice (5.42.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 14 Jan 2018 15:58:48 +0000
+
 kservice (5.41.0-0neon) xenial; urgency=medium
 
   * New release
